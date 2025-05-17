@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: sunum  # self-hosted runner altında bu şekilde kopyalanıyor
+        working-directory: ./sunum  # 🔧 BU SATIR ÇOK ÖNEMLİ
 
     steps:
       - name: Kodları klonla
@@ -28,3 +28,4 @@ jobs:
 
       - name: Frontend deployment uygula
         run: kubectl apply -f kubernetes/base/frontend/deployment.yaml
+
