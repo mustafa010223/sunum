@@ -1,0 +1,12 @@
+- name: Setup Namespaces & NetworkPolicy
+  hosts: localhost
+  tasks:
+    - name: Create namespaces
+      shell: |
+        kubectl create ns dev
+        kubectl create ns test
+        kubectl create ns prod
+
+    - name: Apply NetworkPolicies
+      shell: |
+        kubectl apply -f kubernetes/base/mongodb/network-policy.yaml

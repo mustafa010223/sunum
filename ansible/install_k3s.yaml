@@ -1,0 +1,11 @@
+- name: Install K3s
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Run K3s install
+      shell: curl -sfL https://get.k3s.io | sh -

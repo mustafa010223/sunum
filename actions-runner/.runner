@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "k3s-server",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus6.actions.githubusercontent.com/JK1Cmkfjdtm9ZJ6DkDPfmS9M8Qp05CdC3VD7bEQ6SRCcBm5Ptx/",
+  "gitHubUrl": "https://github.com/mustafa010223/sunum",
+  "workFolder": "_work"
+}

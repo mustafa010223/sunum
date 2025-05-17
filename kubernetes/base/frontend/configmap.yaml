@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: dev
+data:
+  index.html: |
+    <html>
+      <head><title>OpenShop360</title></head>
+      <body><h1>Merhaba! React uygulaman buraya deploy edildi 🎉</h1></body>
+    </html>
