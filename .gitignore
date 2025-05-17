@@ -27,3 +27,4 @@ yarn-error.log*
 # ❌ Büyük dosyaları dışla
 actions-runner/
 *.tar.gz
+temiz-sunum/
