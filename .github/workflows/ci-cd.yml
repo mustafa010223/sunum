@@ -9,6 +9,10 @@ jobs:
   deploy:
     runs-on: self-hosted
 
+    defaults:
+      run:
+        working-directory: sunum  # self-hosted runner altında bu şekilde kopyalanıyor
+
     steps:
       - name: Kodları klonla
         uses: actions/checkout@v3
@@ -24,4 +28,3 @@ jobs:
 
       - name: Frontend deployment uygula
         run: kubectl apply -f kubernetes/base/frontend/deployment.yaml
-
