@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "mustafa010223/sunum",
+  "pipelineDirectory": "sunum",
+  "workspaceDirectory": "sunum/sunum",
+  "repositories": {
+    "mustafa010223/sunum": {
+      "repositoryPath": "sunum/sunum",
+      "lastRunOn": "05/17/2025 19:05:01 +02:00"
+    }
+  },
+  "lastRunOn": "05/18/2025 00:30:45 +02:00"
+}

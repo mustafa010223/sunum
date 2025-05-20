@@ -1,0 +1,1897 @@
+[2025-05-17 17:04:55Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'Credentials': '/home/mustafa/sunum/actions-runner/.credentials'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'Runner': '/home/mustafa/sunum/actions-runner/.runner'
+[2025-05-17 17:04:55Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2025-05-17 17:04:55Z INFO Listener] RuntimeInformation: Ubuntu 24.04.2 LTS.
+[2025-05-17 17:04:55Z INFO Listener] Version: 2.324.0
+[2025-05-17 17:04:55Z INFO Listener] Commit: da3412efd49b1cf1a0fbdcbcee4e4ac4cc2177c8
+[2025-05-17 17:04:55Z INFO Listener] Culture: tr-TR
+[2025-05-17 17:04:55Z INFO Listener] UI Culture: tr-TR
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO Listener] Validating directory permissions for: '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO CommandLineParser] Parse
+[2025-05-17 17:04:55Z INFO CommandLineParser] Parsing 1 args
+[2025-05-17 17:04:55Z INFO CommandLineParser] parsing argument
+[2025-05-17 17:04:55Z INFO CommandLineParser] HasArgs: False
+[2025-05-17 17:04:55Z INFO CommandLineParser] Adding Command: run
+[2025-05-17 17:04:55Z INFO Listener] Arguments parsed
+[2025-05-17 17:04:55Z INFO Runner] ExecuteCommand
+[2025-05-17 17:04:55Z INFO ConfigurationStore] currentAssemblyLocation: /home/mustafa/sunum/actions-runner/bin/Runner.Listener.dll
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] binPath: /home/mustafa/sunum/actions-runner/bin
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] RootFolder: /home/mustafa/sunum/actions-runner
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'Runner': '/home/mustafa/sunum/actions-runner/.runner'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] ConfigFilePath: /home/mustafa/sunum/actions-runner/.runner
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'MigratedRunner': '/home/mustafa/sunum/actions-runner/.runner_migrated'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] MigratedConfigFilePath: /home/mustafa/sunum/actions-runner/.runner_migrated
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'Credentials': '/home/mustafa/sunum/actions-runner/.credentials'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] CredFilePath: /home/mustafa/sunum/actions-runner/.credentials
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/mustafa/sunum/actions-runner/.credentials_migrated'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] MigratedCredFilePath: /home/mustafa/sunum/actions-runner/.credentials_migrated
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'Service': '/home/mustafa/sunum/actions-runner/.service'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] ServiceConfigFilePath: /home/mustafa/sunum/actions-runner/.service
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'help': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'version': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'check': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Command 'configure': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Command 'remove': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-05-17 17:04:55Z INFO ConfigurationManager] LoadSettings
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-17 17:04:55Z INFO ConfigurationManager] Is configured: True
+[2025-05-17 17:04:55Z INFO ConfigurationStore] Read setting file: 286 chars
+[2025-05-17 17:04:55Z INFO ConfigurationManager] Settings Loaded
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-05-17 17:04:55Z INFO CommandSettings] Command 'run': 'True'
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-17 17:04:55Z INFO ConfigurationManager] Is configured: True
+[2025-05-17 17:04:55Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-05-17 17:04:55Z INFO Runner] Set runner startup type - Manual
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-17 17:04:55Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-17 17:04:55Z INFO Runner] RunAsync
+[2025-05-17 17:04:55Z INFO ConfigurationManager] LoadMigratedSettings
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsMigratedConfigured()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsMigratedConfigured: False
+[2025-05-17 17:04:55Z INFO Runner] Failed to load migrated settings: No migrated configuration found.
+[2025-05-17 17:04:55Z INFO Runner] Falling back to original .runner settings
+[2025-05-17 17:04:55Z INFO ConfigurationManager] LoadSettings
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-17 17:04:55Z INFO ConfigurationManager] Is configured: True
+[2025-05-17 17:04:55Z INFO ConfigurationManager] Settings Loaded
+[2025-05-17 17:04:55Z INFO MessageListener] {
+  "AgentId": 3,
+  "AgentName": "y",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus6.actions.githubusercontent.com/JK1Cmkfjdtm9ZJ6DkDPfmS9M8Qp05CdC3VD7bEQ6SRCcBm5Ptx/",
+  "GitHubUrl": "https://github.com/mustafa010223/sunum",
+  "WorkFolder": "_work"
+}
+[2025-05-17 17:04:55Z INFO MessageListener] Loading Credentials
+[2025-05-17 17:04:55Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:04:55Z INFO ConfigurationStore] stored True
+[2025-05-17 17:04:55Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:04:55Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:04:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:04:55Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:04:55Z INFO HostContext] Well known config file 'RSACredentials': '/home/mustafa/sunum/actions-runner/.credentials_rsaparams'
+[2025-05-17 17:04:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:55Z INFO MessageListener] Attempt to create session.
+[2025-05-17 17:04:55Z INFO MessageListener] Connecting to the Runner Server...
+[2025-05-17 17:04:55Z INFO RunnerServer] EstablishVssConnection
+[2025-05-17 17:04:55Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-05-17 17:04:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-17 17:04:55Z INFO RunnerServer] EstablishVssConnection
+[2025-05-17 17:04:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-17 17:04:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-17 17:04:55Z INFO RunnerServer] EstablishVssConnection
+[2025-05-17 17:04:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-05-17 17:04:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-05-17 17:04:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-17 17:04:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-17 17:04:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-05-17 17:04:56Z INFO MessageListener] VssConnection created
+[2025-05-17 17:04:56Z INFO Terminal] WRITE LINE: 
+[2025-05-17 17:04:56Z INFO Terminal] WRITE LINE: 
+[2025-05-17 17:04:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:04:57Z INFO MessageListener] Session created.
+[2025-05-17 17:04:57Z INFO MessageListener] Registering AuthMigrationChanged event handler.
+[2025-05-17 17:04:57Z INFO Terminal] WRITE LINE: Current runner version: '2.324.0'
+[2025-05-17 17:04:57Z INFO Terminal] WRITE LINE: 2025-05-17 17:04:57Z: Listening for Jobs
+[2025-05-17 17:04:57Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-05-17 17:04:57Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:04:57Z INFO ConfigurationStore] stored True
+[2025-05-17 17:04:57Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:04:57Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:04:57Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:04:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:04:59Z INFO MessageListener] Message '3697523887792469987' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:04:59Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:04:59Z INFO ConfigurationStore] stored True
+[2025-05-17 17:04:59Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:04:59Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:04:59Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:04:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:04:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:05:00Z INFO JobDispatcher] Job request 0 for plan 48d4a1d2-baf4-4e58-beeb-6f469f0f9332 job 33e46e93-1784-54ad-b6eb-f27d8c017f57 received.
+[2025-05-17 17:05:00Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:05:00Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:05:00Z INFO Terminal] WRITE LINE: 2025-05-17 17:05:00Z: Running job: deploy
+[2025-05-17 17:05:00Z INFO JobDispatcher] Start renew job request 0 for job 33e46e93-1784-54ad-b6eb-f27d8c017f57.
+[2025-05-17 17:05:01Z INFO JobDispatcher] Successfully renew job 33e46e93-1784-54ad-b6eb-f27d8c017f57, job is valid till 17.05.2025 17:15:01
+[2025-05-17 17:05:01Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 155 158'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:05:01Z INFO ProcessInvokerWrapper] Process started with process id 120588, waiting for process exit.
+[2025-05-17 17:05:01Z INFO JobDispatcher] Send job request message to worker for job 33e46e93-1784-54ad-b6eb-f27d8c017f57.
+[2025-05-17 17:05:01Z INFO ProcessChannel] Sending message of length 20371, with hash 'ca0574544b9fa008964251eb3905cd879f63d462e8ecc728d27799cabe009ad1'
+[2025-05-17 17:05:01Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:05:01Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:05:02Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:05:02Z INFO ConfigurationStore] stored True
+[2025-05-17 17:05:02Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:05:02Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:05:02Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:05:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:05:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:05:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:05:10Z INFO ProcessInvokerWrapper] Finished process 120588 with exit code 102, and elapsed time 00:00:09.8041495.
+[2025-05-17 17:05:10Z INFO JobDispatcher] Worker finished for job 33e46e93-1784-54ad-b6eb-f27d8c017f57. Code: 102
+[2025-05-17 17:05:10Z INFO JobDispatcher] finish job request for job 33e46e93-1784-54ad-b6eb-f27d8c017f57 with result: Failed
+[2025-05-17 17:05:10Z INFO Terminal] WRITE LINE: 2025-05-17 17:05:10Z: Job deploy completed with result: Failed
+[2025-05-17 17:05:10Z INFO JobDispatcher] Stop renew job request for job 33e46e93-1784-54ad-b6eb-f27d8c017f57.
+[2025-05-17 17:05:10Z INFO JobDispatcher] job renew has been cancelled, stop renew job 33e46e93-1784-54ad-b6eb-f27d8c017f57.
+[2025-05-17 17:05:10Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:05:10Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:05:10Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:05:52Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:05:52Z INFO ConfigurationStore] stored True
+[2025-05-17 17:05:52Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:05:52Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:05:52Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:05:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:06:42Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:06:42Z INFO ConfigurationStore] stored True
+[2025-05-17 17:06:42Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:06:42Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:06:42Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:06:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:07:33Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:07:33Z INFO ConfigurationStore] stored True
+[2025-05-17 17:07:33Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:07:33Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:07:33Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:07:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:08:23Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:08:23Z INFO ConfigurationStore] stored True
+[2025-05-17 17:08:23Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:08:23Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:08:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:08:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:09:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:09:14Z INFO ConfigurationStore] stored True
+[2025-05-17 17:09:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:09:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:09:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:09:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:10:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:10:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:10:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:10:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:10:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:10:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:10:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:10:54Z INFO ConfigurationStore] stored True
+[2025-05-17 17:10:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:10:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:10:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:10:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:11:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:11:45Z INFO ConfigurationStore] stored True
+[2025-05-17 17:11:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:11:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:11:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:11:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:12:13Z INFO MessageListener] Message '3576272097374596317' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:12:13Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:12:13Z INFO ConfigurationStore] stored True
+[2025-05-17 17:12:13Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:12:13Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:12:13Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:12:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:12:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:12:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:12:14Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:12:15Z INFO JobDispatcher] Job request 0 for plan 5e8c9154-a9c7-4d58-8ab9-9f3228cb69b0 job 60fae708-e9db-5b71-86e4-274f0f4a5d11 received.
+[2025-05-17 17:12:15Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:12:15Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:12:15Z INFO JobDispatcher] Job request 33e46e93-1784-54ad-b6eb-f27d8c017f57 processed succeed.
+[2025-05-17 17:12:15Z INFO Terminal] WRITE LINE: 2025-05-17 17:12:15Z: Running job: deploy
+[2025-05-17 17:12:15Z INFO JobDispatcher] Start renew job request 0 for job 60fae708-e9db-5b71-86e4-274f0f4a5d11.
+[2025-05-17 17:12:15Z INFO JobDispatcher] Successfully renew job 60fae708-e9db-5b71-86e4-274f0f4a5d11, job is valid till 17.05.2025 17:22:15
+[2025-05-17 17:12:15Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:12:15Z INFO ProcessInvokerWrapper] Process started with process id 123832, waiting for process exit.
+[2025-05-17 17:12:15Z INFO JobDispatcher] Send job request message to worker for job 60fae708-e9db-5b71-86e4-274f0f4a5d11.
+[2025-05-17 17:12:15Z INFO ProcessChannel] Sending message of length 20088, with hash '6132510105375fbeb5685e959b935cfb179a204107a33f815f3374b66d60a33e'
+[2025-05-17 17:12:15Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:12:15Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:12:16Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:12:16Z INFO ConfigurationStore] stored True
+[2025-05-17 17:12:16Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:12:16Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:12:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:12:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:12:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:12:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:12:24Z INFO ProcessInvokerWrapper] Finished process 123832 with exit code 102, and elapsed time 00:00:08.9149755.
+[2025-05-17 17:12:24Z INFO JobDispatcher] Worker finished for job 60fae708-e9db-5b71-86e4-274f0f4a5d11. Code: 102
+[2025-05-17 17:12:24Z INFO JobDispatcher] finish job request for job 60fae708-e9db-5b71-86e4-274f0f4a5d11 with result: Failed
+[2025-05-17 17:12:24Z INFO Terminal] WRITE LINE: 2025-05-17 17:12:24Z: Job deploy completed with result: Failed
+[2025-05-17 17:12:24Z INFO JobDispatcher] Stop renew job request for job 60fae708-e9db-5b71-86e4-274f0f4a5d11.
+[2025-05-17 17:12:24Z INFO JobDispatcher] job renew has been cancelled, stop renew job 60fae708-e9db-5b71-86e4-274f0f4a5d11.
+[2025-05-17 17:12:24Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:12:24Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:12:24Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:13:01Z INFO MessageListener] Message '5680318750777429326' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:13:01Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:13:01Z INFO ConfigurationStore] stored True
+[2025-05-17 17:13:01Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:13:01Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:13:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:13:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:13:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:13:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:13:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:13:02Z INFO JobDispatcher] Job request 0 for plan 70eb1427-ffbc-4c82-91b2-8d35c31c1469 job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81 received.
+[2025-05-17 17:13:02Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:13:02Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:13:02Z INFO JobDispatcher] Job request 60fae708-e9db-5b71-86e4-274f0f4a5d11 processed succeed.
+[2025-05-17 17:13:02Z INFO Terminal] WRITE LINE: 2025-05-17 17:13:02Z: Running job: deploy
+[2025-05-17 17:13:02Z INFO JobDispatcher] Start renew job request 0 for job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81.
+[2025-05-17 17:13:03Z INFO JobDispatcher] Successfully renew job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81, job is valid till 17.05.2025 17:23:03
+[2025-05-17 17:13:03Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 157 160'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:13:03Z INFO ProcessInvokerWrapper] Process started with process id 124514, waiting for process exit.
+[2025-05-17 17:13:03Z INFO JobDispatcher] Send job request message to worker for job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81.
+[2025-05-17 17:13:03Z INFO ProcessChannel] Sending message of length 20092, with hash 'a989f79cc710fa267502b6a4bbfcceb6237eedbc08be280a35636f46cff86120'
+[2025-05-17 17:13:03Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:13:03Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:13:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:13:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:13:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:13:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:13:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:13:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:13:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:13:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:13:10Z INFO ProcessInvokerWrapper] Finished process 124514 with exit code 102, and elapsed time 00:00:07.4608411.
+[2025-05-17 17:13:10Z INFO JobDispatcher] Worker finished for job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81. Code: 102
+[2025-05-17 17:13:10Z INFO JobDispatcher] finish job request for job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81 with result: Failed
+[2025-05-17 17:13:10Z INFO Terminal] WRITE LINE: 2025-05-17 17:13:10Z: Job deploy completed with result: Failed
+[2025-05-17 17:13:10Z INFO JobDispatcher] Stop renew job request for job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81.
+[2025-05-17 17:13:10Z INFO JobDispatcher] job renew has been cancelled, stop renew job f7dd1020-d6c7-5e7f-89c2-f106fb42ec81.
+[2025-05-17 17:13:10Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:13:10Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:13:10Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:13:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:13:54Z INFO ConfigurationStore] stored True
+[2025-05-17 17:13:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:13:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:13:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:13:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:14:44Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:14:44Z INFO ConfigurationStore] stored True
+[2025-05-17 17:14:44Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:14:44Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:14:44Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:14:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:15:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:15:35Z INFO ConfigurationStore] stored True
+[2025-05-17 17:15:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:15:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:15:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:15:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:16:25Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:16:25Z INFO ConfigurationStore] stored True
+[2025-05-17 17:16:25Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:16:25Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:16:25Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:16:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:04Z INFO MessageListener] Message '1909631297857973439' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:17:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:17:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:17:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:17:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:17:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:17:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:04Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:17:05Z INFO JobDispatcher] Job request 0 for plan 82d518ab-e5ac-4259-8bfa-f192fe78d7f8 job e3358234-caef-5a7e-87b9-2d21221a5a14 received.
+[2025-05-17 17:17:05Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:17:05Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:17:05Z INFO JobDispatcher] Job request f7dd1020-d6c7-5e7f-89c2-f106fb42ec81 processed succeed.
+[2025-05-17 17:17:05Z INFO Terminal] WRITE LINE: 2025-05-17 17:17:05Z: Running job: deploy
+[2025-05-17 17:17:05Z INFO JobDispatcher] Start renew job request 0 for job e3358234-caef-5a7e-87b9-2d21221a5a14.
+[2025-05-17 17:17:06Z INFO JobDispatcher] Successfully renew job e3358234-caef-5a7e-87b9-2d21221a5a14, job is valid till 17.05.2025 17:27:05
+[2025-05-17 17:17:06Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:17:06Z INFO ProcessInvokerWrapper] Process started with process id 126195, waiting for process exit.
+[2025-05-17 17:17:06Z INFO JobDispatcher] Send job request message to worker for job e3358234-caef-5a7e-87b9-2d21221a5a14.
+[2025-05-17 17:17:06Z INFO ProcessChannel] Sending message of length 19698, with hash '8befa1585619322922f3ea0df1dce66fcd4449140fab856bf94a5335a21d9183'
+[2025-05-17 17:17:06Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:17:06Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:17:07Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:17:07Z INFO ConfigurationStore] stored True
+[2025-05-17 17:17:07Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:17:07Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:17:07Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:17:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:14Z INFO ProcessInvokerWrapper] Finished process 126195 with exit code 102, and elapsed time 00:00:08.8869883.
+[2025-05-17 17:17:14Z INFO JobDispatcher] Worker finished for job e3358234-caef-5a7e-87b9-2d21221a5a14. Code: 102
+[2025-05-17 17:17:14Z INFO JobDispatcher] finish job request for job e3358234-caef-5a7e-87b9-2d21221a5a14 with result: Failed
+[2025-05-17 17:17:14Z INFO Terminal] WRITE LINE: 2025-05-17 17:17:14Z: Job deploy completed with result: Failed
+[2025-05-17 17:17:14Z INFO JobDispatcher] Stop renew job request for job e3358234-caef-5a7e-87b9-2d21221a5a14.
+[2025-05-17 17:17:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job e3358234-caef-5a7e-87b9-2d21221a5a14.
+[2025-05-17 17:17:14Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:17:14Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:17:14Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:17:15Z INFO MessageListener] Message '2523264197980773468' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:17:15Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:17:15Z INFO ConfigurationStore] stored True
+[2025-05-17 17:17:15Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:17:15Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:17:15Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:17:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:15Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:17:16Z INFO JobDispatcher] Job request 0 for plan a25139d6-a6e9-4ab8-bc53-544d0fca0f3d job 213b41bf-f9ff-542a-9029-ea3c1db187fc received.
+[2025-05-17 17:17:16Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:17:16Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:17:16Z INFO JobDispatcher] Job request e3358234-caef-5a7e-87b9-2d21221a5a14 processed succeed.
+[2025-05-17 17:17:16Z INFO Terminal] WRITE LINE: 2025-05-17 17:17:16Z: Running job: deploy
+[2025-05-17 17:17:16Z INFO JobDispatcher] Start renew job request 0 for job 213b41bf-f9ff-542a-9029-ea3c1db187fc.
+[2025-05-17 17:17:16Z INFO JobDispatcher] Successfully renew job 213b41bf-f9ff-542a-9029-ea3c1db187fc, job is valid till 17.05.2025 17:27:16
+[2025-05-17 17:17:16Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 157 160'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:17:16Z INFO ProcessInvokerWrapper] Process started with process id 126523, waiting for process exit.
+[2025-05-17 17:17:16Z INFO JobDispatcher] Send job request message to worker for job 213b41bf-f9ff-542a-9029-ea3c1db187fc.
+[2025-05-17 17:17:16Z INFO ProcessChannel] Sending message of length 20092, with hash '20f9fe6440bd8ac5c5617979c85448a3562c1e0a4e773881799d4fc54b659201'
+[2025-05-17 17:17:16Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:17:16Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:17:17Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:17:17Z INFO ConfigurationStore] stored True
+[2025-05-17 17:17:17Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:17:17Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:17:17Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:17:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:17:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:24Z INFO ProcessInvokerWrapper] Finished process 126523 with exit code 102, and elapsed time 00:00:07.6160989.
+[2025-05-17 17:17:24Z INFO JobDispatcher] Worker finished for job 213b41bf-f9ff-542a-9029-ea3c1db187fc. Code: 102
+[2025-05-17 17:17:24Z INFO JobDispatcher] finish job request for job 213b41bf-f9ff-542a-9029-ea3c1db187fc with result: Failed
+[2025-05-17 17:17:24Z INFO Terminal] WRITE LINE: 2025-05-17 17:17:24Z: Job deploy completed with result: Failed
+[2025-05-17 17:17:24Z INFO JobDispatcher] Stop renew job request for job 213b41bf-f9ff-542a-9029-ea3c1db187fc.
+[2025-05-17 17:17:24Z INFO JobDispatcher] job renew has been cancelled, stop renew job 213b41bf-f9ff-542a-9029-ea3c1db187fc.
+[2025-05-17 17:17:24Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:17:24Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:17:24Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:18:08Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:18:08Z INFO ConfigurationStore] stored True
+[2025-05-17 17:18:08Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:18:08Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:18:08Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:18:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:18:58Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:18:58Z INFO ConfigurationStore] stored True
+[2025-05-17 17:18:58Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:18:58Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:18:58Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:18:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:19:48Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:19:48Z INFO ConfigurationStore] stored True
+[2025-05-17 17:19:48Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:19:48Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:19:48Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:19:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:20:39Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:20:39Z INFO ConfigurationStore] stored True
+[2025-05-17 17:20:39Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:20:39Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:20:39Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:20:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:21:29Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:21:29Z INFO ConfigurationStore] stored True
+[2025-05-17 17:21:29Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:21:29Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:21:29Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:21:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:22:19Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:22:19Z INFO ConfigurationStore] stored True
+[2025-05-17 17:22:19Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:22:19Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:22:19Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:22:19Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:23:10Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:23:10Z INFO ConfigurationStore] stored True
+[2025-05-17 17:23:10Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:23:10Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:23:10Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:23:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:24:00Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:24:00Z INFO ConfigurationStore] stored True
+[2025-05-17 17:24:00Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:24:00Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:24:00Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:24:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:24:50Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:24:50Z INFO ConfigurationStore] stored True
+[2025-05-17 17:24:50Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:24:50Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:24:50Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:24:50Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:25:41Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:25:41Z INFO ConfigurationStore] stored True
+[2025-05-17 17:25:41Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:25:41Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:25:41Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:25:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:26:31Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:26:31Z INFO ConfigurationStore] stored True
+[2025-05-17 17:26:31Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:26:31Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:26:31Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:26:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:27:21Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:27:21Z INFO ConfigurationStore] stored True
+[2025-05-17 17:27:21Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:27:21Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:27:21Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:27:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:28:12Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:28:12Z INFO ConfigurationStore] stored True
+[2025-05-17 17:28:12Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:28:12Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:28:12Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:28:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:29:02Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:29:02Z INFO ConfigurationStore] stored True
+[2025-05-17 17:29:02Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:29:02Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:29:02Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:29:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:29:52Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:29:52Z INFO ConfigurationStore] stored True
+[2025-05-17 17:29:52Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:29:52Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:29:52Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:29:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:30:43Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:30:43Z INFO ConfigurationStore] stored True
+[2025-05-17 17:30:43Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:30:43Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:30:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:30:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:31:33Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:31:33Z INFO ConfigurationStore] stored True
+[2025-05-17 17:31:33Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:31:33Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:31:33Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:31:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:32:23Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:32:23Z INFO ConfigurationStore] stored True
+[2025-05-17 17:32:23Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:32:23Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:32:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:32:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:33:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:33:14Z INFO ConfigurationStore] stored True
+[2025-05-17 17:33:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:33:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:33:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:33:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:34:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:34:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:34:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:34:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:34:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:21Z INFO MessageListener] Message '4312151097265263228' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:34:21Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:34:21Z INFO ConfigurationStore] stored True
+[2025-05-17 17:34:21Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:34:21Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:34:21Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:34:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:22Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:34:23Z INFO JobDispatcher] Job request 0 for plan a8bb467e-7137-4fc9-a17c-d35bb577925d job 6e1ad4f5-714e-582a-9952-55917a001dad received.
+[2025-05-17 17:34:23Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:34:23Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:34:23Z INFO JobDispatcher] Job request 213b41bf-f9ff-542a-9029-ea3c1db187fc processed succeed.
+[2025-05-17 17:34:23Z INFO Terminal] WRITE LINE: 2025-05-17 17:34:23Z: Running job: deploy
+[2025-05-17 17:34:23Z INFO JobDispatcher] Start renew job request 0 for job 6e1ad4f5-714e-582a-9952-55917a001dad.
+[2025-05-17 17:34:23Z INFO JobDispatcher] Successfully renew job 6e1ad4f5-714e-582a-9952-55917a001dad, job is valid till 17.05.2025 17:44:23
+[2025-05-17 17:34:23Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:34:23Z INFO ProcessInvokerWrapper] Process started with process id 133900, waiting for process exit.
+[2025-05-17 17:34:23Z INFO JobDispatcher] Send job request message to worker for job 6e1ad4f5-714e-582a-9952-55917a001dad.
+[2025-05-17 17:34:23Z INFO ProcessChannel] Sending message of length 19694, with hash 'f9649bf7c84a8125227b6db994324f83faf95bb4ad628297020ab66254a38aa0'
+[2025-05-17 17:34:23Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:34:23Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:34:24Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:34:24Z INFO ConfigurationStore] stored True
+[2025-05-17 17:34:24Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:34:24Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:34:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:34:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:34:40Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:34:40Z INFO ProcessInvokerWrapper] Finished process 133900 with exit code 102, and elapsed time 00:00:16.9340298.
+[2025-05-17 17:34:40Z INFO JobDispatcher] Worker finished for job 6e1ad4f5-714e-582a-9952-55917a001dad. Code: 102
+[2025-05-17 17:34:40Z INFO JobDispatcher] finish job request for job 6e1ad4f5-714e-582a-9952-55917a001dad with result: Failed
+[2025-05-17 17:34:40Z INFO Terminal] WRITE LINE: 2025-05-17 17:34:40Z: Job deploy completed with result: Failed
+[2025-05-17 17:34:40Z INFO JobDispatcher] Stop renew job request for job 6e1ad4f5-714e-582a-9952-55917a001dad.
+[2025-05-17 17:34:40Z INFO JobDispatcher] job renew has been cancelled, stop renew job 6e1ad4f5-714e-582a-9952-55917a001dad.
+[2025-05-17 17:34:40Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:34:40Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:34:40Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:34:40Z INFO MessageListener] Message '5144423721885136079' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:34:40Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:34:40Z INFO ConfigurationStore] stored True
+[2025-05-17 17:34:40Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:34:40Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:34:40Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:34:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:41Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:34:42Z INFO JobDispatcher] Job request 0 for plan 7c0606c6-fd1c-4f1d-92f0-6e9003246f22 job e688aef5-6faa-5801-a5da-6dc593364797 received.
+[2025-05-17 17:34:42Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:34:42Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:34:42Z INFO JobDispatcher] Job request 6e1ad4f5-714e-582a-9952-55917a001dad processed succeed.
+[2025-05-17 17:34:42Z INFO Terminal] WRITE LINE: 2025-05-17 17:34:42Z: Running job: deploy
+[2025-05-17 17:34:42Z INFO JobDispatcher] Start renew job request 0 for job e688aef5-6faa-5801-a5da-6dc593364797.
+[2025-05-17 17:34:42Z INFO JobDispatcher] Successfully renew job e688aef5-6faa-5801-a5da-6dc593364797, job is valid till 17.05.2025 17:44:42
+[2025-05-17 17:34:42Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 157 160'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:34:42Z INFO ProcessInvokerWrapper] Process started with process id 134673, waiting for process exit.
+[2025-05-17 17:34:42Z INFO JobDispatcher] Send job request message to worker for job e688aef5-6faa-5801-a5da-6dc593364797.
+[2025-05-17 17:34:42Z INFO ProcessChannel] Sending message of length 20091, with hash '8e314ad67fb44531cc31cb341f6464df79b927638866b823d918c6da2dc4de4c'
+[2025-05-17 17:34:42Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:34:42Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:34:43Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:34:43Z INFO ConfigurationStore] stored True
+[2025-05-17 17:34:43Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:34:43Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:34:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:34:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:34:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:34:50Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:34:50Z INFO ProcessInvokerWrapper] Finished process 134673 with exit code 102, and elapsed time 00:00:07.5740560.
+[2025-05-17 17:34:50Z INFO JobDispatcher] Worker finished for job e688aef5-6faa-5801-a5da-6dc593364797. Code: 102
+[2025-05-17 17:34:50Z INFO JobDispatcher] finish job request for job e688aef5-6faa-5801-a5da-6dc593364797 with result: Failed
+[2025-05-17 17:34:50Z INFO Terminal] WRITE LINE: 2025-05-17 17:34:50Z: Job deploy completed with result: Failed
+[2025-05-17 17:34:50Z INFO JobDispatcher] Stop renew job request for job e688aef5-6faa-5801-a5da-6dc593364797.
+[2025-05-17 17:34:50Z INFO JobDispatcher] job renew has been cancelled, stop renew job e688aef5-6faa-5801-a5da-6dc593364797.
+[2025-05-17 17:34:50Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:34:50Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:34:50Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:35:33Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:35:33Z INFO ConfigurationStore] stored True
+[2025-05-17 17:35:33Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:35:33Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:35:33Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:35:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:36:24Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:36:24Z INFO ConfigurationStore] stored True
+[2025-05-17 17:36:24Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:36:24Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:36:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:36:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:37:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:37:14Z INFO ConfigurationStore] stored True
+[2025-05-17 17:37:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:37:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:37:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:37:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:38:01Z INFO MessageListener] Message '362792450197667942' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:38:01Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:38:01Z INFO ConfigurationStore] stored True
+[2025-05-17 17:38:01Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:38:01Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:38:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:38:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:38:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:38:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:38:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:38:02Z INFO JobDispatcher] Job request 0 for plan eb2946a7-5766-4e81-9d1c-6e6e465966d0 job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3 received.
+[2025-05-17 17:38:02Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:38:02Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:38:02Z INFO JobDispatcher] Job request e688aef5-6faa-5801-a5da-6dc593364797 processed succeed.
+[2025-05-17 17:38:02Z INFO Terminal] WRITE LINE: 2025-05-17 17:38:02Z: Running job: deploy
+[2025-05-17 17:38:02Z INFO JobDispatcher] Start renew job request 0 for job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3.
+[2025-05-17 17:38:03Z INFO JobDispatcher] Successfully renew job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3, job is valid till 17.05.2025 17:48:02
+[2025-05-17 17:38:03Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:38:03Z INFO ProcessInvokerWrapper] Process started with process id 136221, waiting for process exit.
+[2025-05-17 17:38:03Z INFO JobDispatcher] Send job request message to worker for job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3.
+[2025-05-17 17:38:03Z INFO ProcessChannel] Sending message of length 20092, with hash 'ac325e6773ac2a75d686911570eb378c2f3e08453ad9d8c196c0a2fbaee6f4e4'
+[2025-05-17 17:38:03Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:38:03Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:38:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:38:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:38:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:38:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:38:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:38:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:38:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:38:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:38:10Z INFO ProcessInvokerWrapper] Finished process 136221 with exit code 102, and elapsed time 00:00:07.5118839.
+[2025-05-17 17:38:10Z INFO JobDispatcher] Worker finished for job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3. Code: 102
+[2025-05-17 17:38:10Z INFO JobDispatcher] finish job request for job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3 with result: Failed
+[2025-05-17 17:38:10Z INFO Terminal] WRITE LINE: 2025-05-17 17:38:10Z: Job deploy completed with result: Failed
+[2025-05-17 17:38:10Z INFO JobDispatcher] Stop renew job request for job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3.
+[2025-05-17 17:38:10Z INFO JobDispatcher] job renew has been cancelled, stop renew job 003c1066-3fe3-56a5-90ef-0653a1ff5ed3.
+[2025-05-17 17:38:10Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:38:10Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:38:10Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:38:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:38:54Z INFO ConfigurationStore] stored True
+[2025-05-17 17:38:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:38:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:38:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:38:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:39:44Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:39:44Z INFO ConfigurationStore] stored True
+[2025-05-17 17:39:44Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:39:44Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:39:44Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:39:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:40:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:40:35Z INFO ConfigurationStore] stored True
+[2025-05-17 17:40:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:40:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:40:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:40:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:41:25Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:41:25Z INFO ConfigurationStore] stored True
+[2025-05-17 17:41:25Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:41:25Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:41:25Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:41:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:42:15Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:42:15Z INFO ConfigurationStore] stored True
+[2025-05-17 17:42:15Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:42:15Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:42:15Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:42:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:43:06Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:43:06Z INFO ConfigurationStore] stored True
+[2025-05-17 17:43:06Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:43:06Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:43:06Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:43:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:43:56Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:43:56Z INFO ConfigurationStore] stored True
+[2025-05-17 17:43:56Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:43:56Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:43:56Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:43:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:44:46Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:44:46Z INFO ConfigurationStore] stored True
+[2025-05-17 17:44:46Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:44:46Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:44:46Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:44:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:45:37Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:45:37Z INFO ConfigurationStore] stored True
+[2025-05-17 17:45:37Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:45:37Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:45:37Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:45:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:46:27Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:46:27Z INFO ConfigurationStore] stored True
+[2025-05-17 17:46:27Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:46:27Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:46:27Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:46:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:47:17Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:47:17Z INFO ConfigurationStore] stored True
+[2025-05-17 17:47:17Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:47:17Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:47:17Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:47:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:48:07Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:48:07Z INFO ConfigurationStore] stored True
+[2025-05-17 17:48:07Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:48:07Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:48:07Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:48:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:48:58Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:48:58Z INFO ConfigurationStore] stored True
+[2025-05-17 17:48:58Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:48:58Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:48:58Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:48:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:49:48Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:49:48Z INFO ConfigurationStore] stored True
+[2025-05-17 17:49:48Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:49:48Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:49:48Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:49:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:50:20Z INFO MessageListener] Message '8746663672111891085' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:50:20Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:50:20Z INFO ConfigurationStore] stored True
+[2025-05-17 17:50:20Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:50:20Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:50:20Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:50:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:50:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:50:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:50:21Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:50:22Z INFO JobDispatcher] Job request 0 for plan f7e8d7a6-cd79-45b3-912d-648a734acf8b job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab received.
+[2025-05-17 17:50:22Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:50:22Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:50:22Z INFO JobDispatcher] Job request 003c1066-3fe3-56a5-90ef-0653a1ff5ed3 processed succeed.
+[2025-05-17 17:50:22Z INFO Terminal] WRITE LINE: 2025-05-17 17:50:22Z: Running job: deploy
+[2025-05-17 17:50:22Z INFO JobDispatcher] Start renew job request 0 for job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab.
+[2025-05-17 17:50:22Z INFO JobDispatcher] Successfully renew job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab, job is valid till 17.05.2025 18:00:22
+[2025-05-17 17:50:22Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:50:22Z INFO ProcessInvokerWrapper] Process started with process id 140389, waiting for process exit.
+[2025-05-17 17:50:22Z INFO JobDispatcher] Send job request message to worker for job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab.
+[2025-05-17 17:50:22Z INFO ProcessChannel] Sending message of length 20092, with hash 'd9f90c0f37f6b6102ad3245f952fb392cb308f211e2c13fa3c0b19974beddf2f'
+[2025-05-17 17:50:22Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:50:22Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:50:23Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:50:23Z INFO ConfigurationStore] stored True
+[2025-05-17 17:50:23Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:50:23Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:50:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:50:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:50:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:50:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:50:32Z INFO ProcessInvokerWrapper] Finished process 140389 with exit code 102, and elapsed time 00:00:09.3970818.
+[2025-05-17 17:50:32Z INFO JobDispatcher] Worker finished for job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab. Code: 102
+[2025-05-17 17:50:32Z INFO JobDispatcher] finish job request for job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab with result: Failed
+[2025-05-17 17:50:32Z INFO Terminal] WRITE LINE: 2025-05-17 17:50:32Z: Job deploy completed with result: Failed
+[2025-05-17 17:50:32Z INFO JobDispatcher] Stop renew job request for job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab.
+[2025-05-17 17:50:32Z INFO JobDispatcher] job renew has been cancelled, stop renew job 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab.
+[2025-05-17 17:50:32Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:50:32Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:50:32Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:51:13Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:51:13Z INFO ConfigurationStore] stored True
+[2025-05-17 17:51:13Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:51:13Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:51:13Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:51:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:52:04Z INFO ConfigurationStore] stored True
+[2025-05-17 17:52:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:52:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:52:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:52:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:28Z INFO MessageListener] Message '1012584577049178070' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:52:28Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:52:28Z INFO ConfigurationStore] stored True
+[2025-05-17 17:52:28Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:52:28Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:52:28Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:52:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:29Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:52:29Z INFO JobDispatcher] Job request 0 for plan bbdea01a-6b83-4188-b33f-e17860ec8d48 job 9d380395-60c9-52a8-a661-1f750555a4b2 received.
+[2025-05-17 17:52:29Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:52:29Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:52:29Z INFO JobDispatcher] Job request 7f1d2a8f-b3eb-53d9-9cc9-c1a86ff336ab processed succeed.
+[2025-05-17 17:52:29Z INFO Terminal] WRITE LINE: 2025-05-17 17:52:29Z: Running job: deploy
+[2025-05-17 17:52:29Z INFO JobDispatcher] Start renew job request 0 for job 9d380395-60c9-52a8-a661-1f750555a4b2.
+[2025-05-17 17:52:30Z INFO JobDispatcher] Successfully renew job 9d380395-60c9-52a8-a661-1f750555a4b2, job is valid till 17.05.2025 18:02:30
+[2025-05-17 17:52:30Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:52:30Z INFO ProcessInvokerWrapper] Process started with process id 141215, waiting for process exit.
+[2025-05-17 17:52:30Z INFO JobDispatcher] Send job request message to worker for job 9d380395-60c9-52a8-a661-1f750555a4b2.
+[2025-05-17 17:52:30Z INFO ProcessChannel] Sending message of length 19986, with hash '9ec44f6bdef22f8a730c065f6367a3c808fa9afc40c02260515d0457e63915d6'
+[2025-05-17 17:52:30Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:52:30Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:52:31Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:52:31Z INFO ConfigurationStore] stored True
+[2025-05-17 17:52:31Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:52:31Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:52:31Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:52:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:52:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:52:37Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:52:37Z INFO ProcessInvokerWrapper] Finished process 141215 with exit code 102, and elapsed time 00:00:07.3937050.
+[2025-05-17 17:52:37Z INFO JobDispatcher] Worker finished for job 9d380395-60c9-52a8-a661-1f750555a4b2. Code: 102
+[2025-05-17 17:52:37Z INFO JobDispatcher] finish job request for job 9d380395-60c9-52a8-a661-1f750555a4b2 with result: Failed
+[2025-05-17 17:52:37Z INFO Terminal] WRITE LINE: 2025-05-17 17:52:37Z: Job deploy completed with result: Failed
+[2025-05-17 17:52:37Z INFO JobDispatcher] Stop renew job request for job 9d380395-60c9-52a8-a661-1f750555a4b2.
+[2025-05-17 17:52:37Z INFO JobDispatcher] job renew has been cancelled, stop renew job 9d380395-60c9-52a8-a661-1f750555a4b2.
+[2025-05-17 17:52:37Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:52:37Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:52:37Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:53:21Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:53:21Z INFO ConfigurationStore] stored True
+[2025-05-17 17:53:21Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:53:21Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:53:21Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:53:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:11Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:54:11Z INFO ConfigurationStore] stored True
+[2025-05-17 17:54:11Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:54:11Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:54:11Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:54:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:43Z INFO MessageListener] Message '3039629325340910587' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:54:43Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:54:43Z INFO ConfigurationStore] stored True
+[2025-05-17 17:54:43Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:54:43Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:54:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:54:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:43Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:54:44Z INFO JobDispatcher] Job request 0 for plan 4f28c4bf-13d2-4a86-a802-83ef418f7299 job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18 received.
+[2025-05-17 17:54:44Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:54:44Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:54:44Z INFO JobDispatcher] Job request 9d380395-60c9-52a8-a661-1f750555a4b2 processed succeed.
+[2025-05-17 17:54:44Z INFO Terminal] WRITE LINE: 2025-05-17 17:54:44Z: Running job: deploy
+[2025-05-17 17:54:44Z INFO JobDispatcher] Start renew job request 0 for job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18.
+[2025-05-17 17:54:44Z INFO JobDispatcher] Successfully renew job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18, job is valid till 17.05.2025 18:04:44
+[2025-05-17 17:54:44Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:54:44Z INFO ProcessInvokerWrapper] Process started with process id 142052, waiting for process exit.
+[2025-05-17 17:54:44Z INFO JobDispatcher] Send job request message to worker for job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18.
+[2025-05-17 17:54:44Z INFO ProcessChannel] Sending message of length 20001, with hash '3f6bac7c520a6db79f567d5b74e9df1e65e6b4a5eb7e9e441bbd89b221775129'
+[2025-05-17 17:54:44Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:54:44Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:54:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:54:45Z INFO ConfigurationStore] stored True
+[2025-05-17 17:54:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:54:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:54:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:54:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:54:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:54:51Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:54:51Z INFO ProcessInvokerWrapper] Finished process 142052 with exit code 102, and elapsed time 00:00:07.2444271.
+[2025-05-17 17:54:51Z INFO JobDispatcher] Worker finished for job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18. Code: 102
+[2025-05-17 17:54:51Z INFO JobDispatcher] finish job request for job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18 with result: Failed
+[2025-05-17 17:54:51Z INFO Terminal] WRITE LINE: 2025-05-17 17:54:51Z: Job deploy completed with result: Failed
+[2025-05-17 17:54:51Z INFO JobDispatcher] Stop renew job request for job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18.
+[2025-05-17 17:54:51Z INFO JobDispatcher] job renew has been cancelled, stop renew job 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18.
+[2025-05-17 17:54:51Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:54:51Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:54:51Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:55:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:55:35Z INFO ConfigurationStore] stored True
+[2025-05-17 17:55:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:55:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:55:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:55:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:55:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:55:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:56:27Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:56:27Z INFO ConfigurationStore] stored True
+[2025-05-17 17:56:27Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:56:27Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:56:27Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:56:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:56:49Z INFO MessageListener] Message '541895632699671691' received from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47'.
+[2025-05-17 17:56:49Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:56:49Z INFO ConfigurationStore] stored True
+[2025-05-17 17:56:49Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:56:49Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:56:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:56:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:56:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:56:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:56:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 17:56:50Z INFO JobDispatcher] Job request 0 for plan fd44c61d-2ce7-4c2b-91bf-1b8c0a538738 job 54802506-c12f-548c-9385-b03fade76696 received.
+[2025-05-17 17:56:50Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-05-17 17:56:50Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-05-17 17:56:50Z INFO JobDispatcher] Job request 16bfb819-e7b5-5dd8-b13c-6bc389dd2c18 processed succeed.
+[2025-05-17 17:56:50Z INFO Terminal] WRITE LINE: 2025-05-17 17:56:50Z: Running job: deploy
+[2025-05-17 17:56:50Z INFO JobDispatcher] Start renew job request 0 for job 54802506-c12f-548c-9385-b03fade76696.
+[2025-05-17 17:56:51Z INFO JobDispatcher] Successfully renew job 54802506-c12f-548c-9385-b03fade76696, job is valid till 17.05.2025 18:06:51
+[2025-05-17 17:56:51Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/bin/Runner.Worker'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 149 158'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-05-17 17:56:51Z INFO ProcessInvokerWrapper] Process started with process id 142919, waiting for process exit.
+[2025-05-17 17:56:51Z INFO JobDispatcher] Send job request message to worker for job 54802506-c12f-548c-9385-b03fade76696.
+[2025-05-17 17:56:51Z INFO ProcessChannel] Sending message of length 19694, with hash '759efc7a2f4e9a82ad721a23fc346397a415aad8f4984d1c0c50278ae82eab55'
+[2025-05-17 17:56:51Z INFO JobNotification] Entering JobStarted Notification
+[2025-05-17 17:56:51Z INFO JobNotification] Entering StartMonitor
+[2025-05-17 17:56:52Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:56:52Z INFO ConfigurationStore] stored True
+[2025-05-17 17:56:52Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:56:52Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:56:52Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:56:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:57:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:57:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:57:00Z INFO ProcessInvokerWrapper] Finished process 142919 with exit code 102, and elapsed time 00:00:08.9165671.
+[2025-05-17 17:57:00Z INFO JobDispatcher] Worker finished for job 54802506-c12f-548c-9385-b03fade76696. Code: 102
+[2025-05-17 17:57:00Z INFO JobDispatcher] finish job request for job 54802506-c12f-548c-9385-b03fade76696 with result: Failed
+[2025-05-17 17:57:00Z INFO Terminal] WRITE LINE: 2025-05-17 17:57:00Z: Job deploy completed with result: Failed
+[2025-05-17 17:57:00Z INFO JobDispatcher] Stop renew job request for job 54802506-c12f-548c-9385-b03fade76696.
+[2025-05-17 17:57:00Z INFO JobDispatcher] job renew has been cancelled, stop renew job 54802506-c12f-548c-9385-b03fade76696.
+[2025-05-17 17:57:00Z INFO JobNotification] Entering JobCompleted Notification
+[2025-05-17 17:57:00Z INFO JobNotification] Entering EndMonitor
+[2025-05-17 17:57:00Z INFO MessageListener] Received job status event. JobState: Online
+[2025-05-17 17:57:42Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:57:42Z INFO ConfigurationStore] stored True
+[2025-05-17 17:57:42Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:57:42Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:57:42Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:57:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:58:32Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:58:32Z INFO ConfigurationStore] stored True
+[2025-05-17 17:58:32Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:58:32Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:58:32Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:58:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 17:59:23Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 17:59:23Z INFO ConfigurationStore] stored True
+[2025-05-17 17:59:23Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 17:59:23Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 17:59:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 17:59:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:00:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:00:14Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 18:00:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:00:14Z INFO ConfigurationStore] stored True
+[2025-05-17 18:00:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:00:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:00:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:00:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:01:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:01:04Z INFO ConfigurationStore] stored True
+[2025-05-17 18:01:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:01:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:01:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:01:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:01:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:01:54Z INFO ConfigurationStore] stored True
+[2025-05-17 18:01:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:01:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:01:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:01:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:02:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:02:45Z INFO ConfigurationStore] stored True
+[2025-05-17 18:02:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:02:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:02:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:02:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:03:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:03:35Z INFO ConfigurationStore] stored True
+[2025-05-17 18:03:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:03:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:03:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:03:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:04:25Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:04:25Z INFO ConfigurationStore] stored True
+[2025-05-17 18:04:25Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:04:25Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:04:25Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:04:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:05:16Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:05:16Z INFO ConfigurationStore] stored True
+[2025-05-17 18:05:16Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:05:16Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:05:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:05:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:06:06Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:06:06Z INFO ConfigurationStore] stored True
+[2025-05-17 18:06:06Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:06:06Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:06:06Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:06:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:06:56Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:06:56Z INFO ConfigurationStore] stored True
+[2025-05-17 18:06:56Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:06:56Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:06:56Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:06:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:07:47Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:07:47Z INFO ConfigurationStore] stored True
+[2025-05-17 18:07:47Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:07:47Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:07:47Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:07:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:08:37Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:08:37Z INFO ConfigurationStore] stored True
+[2025-05-17 18:08:37Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:08:37Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:08:37Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:08:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:09:27Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:09:27Z INFO ConfigurationStore] stored True
+[2025-05-17 18:09:27Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:09:27Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:09:27Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:09:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:10:18Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:10:18Z INFO ConfigurationStore] stored True
+[2025-05-17 18:10:18Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:10:18Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:10:18Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:10:18Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:11:08Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:11:08Z INFO ConfigurationStore] stored True
+[2025-05-17 18:11:08Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:11:08Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:11:08Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:11:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:11:58Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:11:58Z INFO ConfigurationStore] stored True
+[2025-05-17 18:11:58Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:11:58Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:11:58Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:11:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:12:49Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:12:49Z INFO ConfigurationStore] stored True
+[2025-05-17 18:12:49Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:12:49Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:12:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:12:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:13:39Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:13:39Z INFO ConfigurationStore] stored True
+[2025-05-17 18:13:39Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:13:39Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:13:39Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:13:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:14:29Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:14:29Z INFO ConfigurationStore] stored True
+[2025-05-17 18:14:29Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:14:29Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:14:29Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:14:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:15:20Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:15:20Z INFO ConfigurationStore] stored True
+[2025-05-17 18:15:20Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:15:20Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:15:20Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:15:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:16:10Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:16:10Z INFO ConfigurationStore] stored True
+[2025-05-17 18:16:10Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:16:10Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:16:10Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:16:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:17:00Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:17:00Z INFO ConfigurationStore] stored True
+[2025-05-17 18:17:00Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:17:00Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:17:00Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:17:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:17:51Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:17:51Z INFO ConfigurationStore] stored True
+[2025-05-17 18:17:51Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:17:51Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:17:51Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:17:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:18:41Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:18:41Z INFO ConfigurationStore] stored True
+[2025-05-17 18:18:41Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:18:41Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:18:41Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:18:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:19:31Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:19:31Z INFO ConfigurationStore] stored True
+[2025-05-17 18:19:31Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:19:31Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:19:31Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:19:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:20:22Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:20:22Z INFO ConfigurationStore] stored True
+[2025-05-17 18:20:22Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:20:22Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:20:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:20:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:21:12Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:21:12Z INFO ConfigurationStore] stored True
+[2025-05-17 18:21:12Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:21:12Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:21:12Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:21:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:22:02Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:22:02Z INFO ConfigurationStore] stored True
+[2025-05-17 18:22:02Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:22:02Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:22:02Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:22:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:22:53Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:22:53Z INFO ConfigurationStore] stored True
+[2025-05-17 18:22:53Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:22:53Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:22:53Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:22:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:23:43Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:23:43Z INFO ConfigurationStore] stored True
+[2025-05-17 18:23:43Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:23:43Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:23:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:23:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:24:33Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:24:33Z INFO ConfigurationStore] stored True
+[2025-05-17 18:24:33Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:24:33Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:24:33Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:24:33Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:25:24Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:25:24Z INFO ConfigurationStore] stored True
+[2025-05-17 18:25:24Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:25:24Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:25:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:25:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:26:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:26:14Z INFO ConfigurationStore] stored True
+[2025-05-17 18:26:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:26:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:26:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:26:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:27:04Z INFO MessageListener] No message retrieved from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47' within last 30 minutes.
+[2025-05-17 18:27:04Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:27:04Z INFO ConfigurationStore] stored True
+[2025-05-17 18:27:04Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:27:04Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:27:04Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:27:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:27:55Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:27:55Z INFO ConfigurationStore] stored True
+[2025-05-17 18:27:55Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:27:55Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:27:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:27:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:28:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:28:45Z INFO ConfigurationStore] stored True
+[2025-05-17 18:28:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:28:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:28:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:28:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:29:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:29:35Z INFO ConfigurationStore] stored True
+[2025-05-17 18:29:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:29:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:29:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:29:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:30:26Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:30:26Z INFO ConfigurationStore] stored True
+[2025-05-17 18:30:26Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:30:26Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:30:26Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:30:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:31:16Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:31:16Z INFO ConfigurationStore] stored True
+[2025-05-17 18:31:16Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:31:16Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:31:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:31:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:32:06Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:32:06Z INFO ConfigurationStore] stored True
+[2025-05-17 18:32:06Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:32:06Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:32:06Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:32:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:32:57Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:32:57Z INFO ConfigurationStore] stored True
+[2025-05-17 18:32:57Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:32:57Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:32:57Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:32:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:33:47Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:33:47Z INFO ConfigurationStore] stored True
+[2025-05-17 18:33:47Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:33:47Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:33:47Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:33:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:34:37Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:34:37Z INFO ConfigurationStore] stored True
+[2025-05-17 18:34:37Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:34:37Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:34:37Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:34:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:35:28Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:35:28Z INFO ConfigurationStore] stored True
+[2025-05-17 18:35:28Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:35:28Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:35:28Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:35:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:36:18Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:36:18Z INFO ConfigurationStore] stored True
+[2025-05-17 18:36:18Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:36:18Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:36:18Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:36:18Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:37:08Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:37:08Z INFO ConfigurationStore] stored True
+[2025-05-17 18:37:08Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:37:08Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:37:08Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:37:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:37:59Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:37:59Z INFO ConfigurationStore] stored True
+[2025-05-17 18:37:59Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:37:59Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:37:59Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:37:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:38:49Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:38:49Z INFO ConfigurationStore] stored True
+[2025-05-17 18:38:49Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:38:49Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:38:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:38:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:39:39Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:39:39Z INFO ConfigurationStore] stored True
+[2025-05-17 18:39:39Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:39:39Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:39:39Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:39:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:40:30Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:40:30Z INFO ConfigurationStore] stored True
+[2025-05-17 18:40:30Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:40:30Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:40:30Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:40:30Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:41:20Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:41:20Z INFO ConfigurationStore] stored True
+[2025-05-17 18:41:20Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:41:20Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:41:20Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:41:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:42:10Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:42:10Z INFO ConfigurationStore] stored True
+[2025-05-17 18:42:10Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:42:10Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:42:10Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:42:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:43:01Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:43:01Z INFO ConfigurationStore] stored True
+[2025-05-17 18:43:01Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:43:01Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:43:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:43:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:43:51Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:43:51Z INFO ConfigurationStore] stored True
+[2025-05-17 18:43:51Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:43:51Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:43:51Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:43:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:44:41Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:44:41Z INFO ConfigurationStore] stored True
+[2025-05-17 18:44:41Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:44:41Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:44:41Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:44:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:45:32Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:45:32Z INFO ConfigurationStore] stored True
+[2025-05-17 18:45:32Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:45:32Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:45:32Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:45:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:46:22Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:46:22Z INFO ConfigurationStore] stored True
+[2025-05-17 18:46:22Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:46:22Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:46:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:46:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:46:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:46:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 18:47:13Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:47:13Z INFO ConfigurationStore] stored True
+[2025-05-17 18:47:13Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:47:13Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:47:13Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:47:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:48:03Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:48:03Z INFO ConfigurationStore] stored True
+[2025-05-17 18:48:03Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:48:03Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:48:03Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:48:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:48:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:48:54Z INFO ConfigurationStore] stored True
+[2025-05-17 18:48:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:48:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:48:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:48:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:49:44Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:49:44Z INFO ConfigurationStore] stored True
+[2025-05-17 18:49:44Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:49:44Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:49:44Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:49:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:50:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:50:35Z INFO ConfigurationStore] stored True
+[2025-05-17 18:50:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:50:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:50:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:50:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:51:25Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:51:25Z INFO ConfigurationStore] stored True
+[2025-05-17 18:51:25Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:51:25Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:51:25Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:51:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:52:15Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:52:15Z INFO ConfigurationStore] stored True
+[2025-05-17 18:52:15Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:52:15Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:52:15Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:52:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:53:06Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:53:06Z INFO ConfigurationStore] stored True
+[2025-05-17 18:53:06Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:53:06Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:53:06Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:53:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:53:56Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:53:56Z INFO ConfigurationStore] stored True
+[2025-05-17 18:53:56Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:53:56Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:53:56Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:53:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:54:46Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:54:46Z INFO ConfigurationStore] stored True
+[2025-05-17 18:54:46Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:54:46Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:54:46Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:54:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:55:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:55:37Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 18:55:38Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:55:38Z INFO ConfigurationStore] stored True
+[2025-05-17 18:55:38Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:55:38Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:55:38Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:55:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:56:28Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:56:28Z INFO ConfigurationStore] stored True
+[2025-05-17 18:56:28Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:56:28Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:56:28Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:56:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:57:18Z INFO MessageListener] No message retrieved from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47' within last 30 minutes.
+[2025-05-17 18:57:18Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:57:18Z INFO ConfigurationStore] stored True
+[2025-05-17 18:57:18Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:57:18Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:57:18Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:57:18Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:58:09Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:58:09Z INFO ConfigurationStore] stored True
+[2025-05-17 18:58:09Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:58:09Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:58:09Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:58:09Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:58:59Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:58:59Z INFO ConfigurationStore] stored True
+[2025-05-17 18:58:59Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:58:59Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:58:59Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:58:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 18:59:49Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 18:59:49Z INFO ConfigurationStore] stored True
+[2025-05-17 18:59:49Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 18:59:49Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 18:59:49Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 18:59:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:00:40Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:00:40Z INFO ConfigurationStore] stored True
+[2025-05-17 19:00:40Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:00:40Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:00:40Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:00:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:01:30Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:01:30Z INFO ConfigurationStore] stored True
+[2025-05-17 19:01:30Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:01:30Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:01:30Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:01:30Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:02:20Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:02:20Z INFO ConfigurationStore] stored True
+[2025-05-17 19:02:20Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:02:20Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:02:20Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:02:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:03:11Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:03:11Z INFO ConfigurationStore] stored True
+[2025-05-17 19:03:11Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:03:11Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:03:11Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:03:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:04:01Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:04:01Z INFO ConfigurationStore] stored True
+[2025-05-17 19:04:01Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:04:01Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:04:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:04:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:04:51Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:04:51Z INFO ConfigurationStore] stored True
+[2025-05-17 19:04:51Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:04:51Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:04:51Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:04:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:05:42Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:05:42Z INFO ConfigurationStore] stored True
+[2025-05-17 19:05:42Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:05:42Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:05:42Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:05:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:06:32Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:06:32Z INFO ConfigurationStore] stored True
+[2025-05-17 19:06:32Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:06:32Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:06:32Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:06:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:07:22Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:07:22Z INFO ConfigurationStore] stored True
+[2025-05-17 19:07:22Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:07:22Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:07:22Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:07:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:08:12Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:08:12Z INFO ConfigurationStore] stored True
+[2025-05-17 19:08:12Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:08:12Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:08:12Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:08:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:09:03Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:09:03Z INFO ConfigurationStore] stored True
+[2025-05-17 19:09:03Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:09:03Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:09:03Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:09:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:09:53Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:09:53Z INFO ConfigurationStore] stored True
+[2025-05-17 19:09:53Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:09:53Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:09:53Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:09:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:10:43Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:10:43Z INFO ConfigurationStore] stored True
+[2025-05-17 19:10:43Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:10:43Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:10:43Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:10:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:11:34Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:11:34Z INFO ConfigurationStore] stored True
+[2025-05-17 19:11:34Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:11:34Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:11:34Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:11:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:12:24Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:12:24Z INFO ConfigurationStore] stored True
+[2025-05-17 19:12:24Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:12:24Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:12:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:12:24Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:13:14Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:13:14Z INFO ConfigurationStore] stored True
+[2025-05-17 19:13:14Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:13:14Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:13:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:13:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:14:05Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:14:05Z INFO ConfigurationStore] stored True
+[2025-05-17 19:14:05Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:14:05Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:14:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:14:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:14:55Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:14:55Z INFO ConfigurationStore] stored True
+[2025-05-17 19:14:55Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:14:55Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:14:55Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:14:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:15:45Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:15:45Z INFO ConfigurationStore] stored True
+[2025-05-17 19:15:45Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:15:45Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:15:45Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:15:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:16:36Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:16:36Z INFO ConfigurationStore] stored True
+[2025-05-17 19:16:36Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:16:36Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:16:36Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:16:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:17:26Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:17:26Z INFO ConfigurationStore] stored True
+[2025-05-17 19:17:26Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:17:26Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:17:26Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:17:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:18:16Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:18:16Z INFO ConfigurationStore] stored True
+[2025-05-17 19:18:16Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:18:16Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:18:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:18:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:19:07Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:19:07Z INFO ConfigurationStore] stored True
+[2025-05-17 19:19:07Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:19:07Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:19:07Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:19:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:19:57Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:19:57Z INFO ConfigurationStore] stored True
+[2025-05-17 19:19:57Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:19:57Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:19:57Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:19:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:20:47Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:20:47Z INFO ConfigurationStore] stored True
+[2025-05-17 19:20:47Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:20:47Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:20:47Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:20:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:21:38Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:21:38Z INFO ConfigurationStore] stored True
+[2025-05-17 19:21:38Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:21:38Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:21:38Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:21:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:22:28Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:22:28Z INFO ConfigurationStore] stored True
+[2025-05-17 19:22:28Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:22:28Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:22:28Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:22:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:23:18Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:23:18Z INFO ConfigurationStore] stored True
+[2025-05-17 19:23:18Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:23:18Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:23:18Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:23:18Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:24:09Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:24:09Z INFO ConfigurationStore] stored True
+[2025-05-17 19:24:09Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:24:09Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:24:09Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:24:09Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:24:59Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:24:59Z INFO ConfigurationStore] stored True
+[2025-05-17 19:24:59Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:24:59Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:24:59Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:24:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:25:50Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:25:50Z INFO ConfigurationStore] stored True
+[2025-05-17 19:25:50Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:25:50Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:25:50Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:25:50Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:26:40Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:26:40Z INFO ConfigurationStore] stored True
+[2025-05-17 19:26:40Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:26:40Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:26:40Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:26:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:27:30Z INFO MessageListener] No message retrieved from session 'f4e0e817-fd05-48d7-84d8-05a82a0bda47' within last 30 minutes.
+[2025-05-17 19:27:30Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:27:30Z INFO ConfigurationStore] stored True
+[2025-05-17 19:27:30Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:27:30Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:27:30Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:27:30Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:28:21Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:28:21Z INFO ConfigurationStore] stored True
+[2025-05-17 19:28:21Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:28:21Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:28:21Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:28:21Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:29:11Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:29:11Z INFO ConfigurationStore] stored True
+[2025-05-17 19:29:11Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:29:11Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:29:11Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:29:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:30:01Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:30:01Z INFO ConfigurationStore] stored True
+[2025-05-17 19:30:01Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:30:01Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:30:01Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:30:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:30:52Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:30:52Z INFO ConfigurationStore] stored True
+[2025-05-17 19:30:52Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:30:52Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:30:52Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:30:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:31:42Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:31:42Z INFO ConfigurationStore] stored True
+[2025-05-17 19:31:42Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:31:42Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:31:42Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:31:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:32:32Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:32:32Z INFO ConfigurationStore] stored True
+[2025-05-17 19:32:32Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:32:32Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:32:32Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:32:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:33:23Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:33:23Z INFO ConfigurationStore] stored True
+[2025-05-17 19:33:23Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:33:23Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:33:23Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:33:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:34:13Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:34:13Z INFO ConfigurationStore] stored True
+[2025-05-17 19:34:13Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:34:13Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:34:13Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:34:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:35:03Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:35:03Z INFO ConfigurationStore] stored True
+[2025-05-17 19:35:03Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:35:03Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:35:03Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:35:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:35:54Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:35:54Z INFO ConfigurationStore] stored True
+[2025-05-17 19:35:54Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:35:54Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:35:54Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:35:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:36:44Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:36:44Z INFO ConfigurationStore] stored True
+[2025-05-17 19:36:44Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:36:44Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:36:44Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:36:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:36:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:36:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-05-17 19:37:35Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:37:35Z INFO ConfigurationStore] stored True
+[2025-05-17 19:37:35Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:37:35Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:37:35Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:37:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:38:26Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:38:26Z INFO ConfigurationStore] stored True
+[2025-05-17 19:38:26Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:38:26Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:38:26Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:38:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:39:16Z INFO ConfigurationStore] HasCredentials()
+[2025-05-17 19:39:16Z INFO ConfigurationStore] stored True
+[2025-05-17 19:39:16Z INFO CredentialManager] GetCredentialProvider
+[2025-05-17 19:39:16Z INFO CredentialManager] Creating type OAuth
+[2025-05-17 19:39:16Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-17 19:39:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mustafa/sunum/actions-runner/.credentials_rsaparams
+[2025-05-17 19:39:44Z INFO Terminal] WRITE LINE: Exiting...
+[2025-05-17 19:39:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-05-17 19:39:45Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-05-17 19:39:45Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-05-17 19:39:45Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=f4e0e817-fd05-48d7-84d8-05a82a0bda47&status=Online&runnerVersion=2.324.0&os=Linux&architecture=X64&disableUpdate=false has been cancelled.
+[2025-05-17 19:39:45Z ERR  BrokerServer] Catch exception during request
+[2025-05-17 19:39:47Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2025-05-17 19:39:47Z ERR  BrokerServer] #####################################################
+[2025-05-17 19:39:47Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2025-05-17 19:39:47Z ERR  BrokerServer] #####################################################
+[2025-05-17 19:39:47Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2025-05-17 19:39:47Z ERR  BrokerServer] #####################################################
+[2025-05-17 19:39:47Z ERR  BrokerServer] System.Net.Sockets.SocketException (125): Operation canceled
+[2025-05-17 19:39:47Z WARN BrokerServer] Back off 8,914 seconds before next retry. 4 attempt left.
+[2025-05-17 19:39:47Z INFO MessageListener] Get next message has been cancelled.
+[2025-05-17 19:39:47Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2025-05-17 19:39:47Z INFO JobDispatcher] Ensure WorkerDispatcher for job 54802506-c12f-548c-9385-b03fade76696 run to finish, cancel any running job.
+[2025-05-17 19:39:47Z INFO JobDispatcher] Job request 54802506-c12f-548c-9385-b03fade76696 processed succeed.
+[2025-05-17 19:39:47Z INFO Runner] Deleting Runner Session...
+[2025-05-17 19:39:47Z INFO Listener] Runner execution been cancelled.

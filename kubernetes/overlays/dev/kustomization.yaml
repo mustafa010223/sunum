@@ -1,0 +1,9 @@
+namespace: dev
+
+resources:
+  - ../../base/frontend
+  - ../../base/backend
+  - ../../base/mongodb
+  - ingress.yaml
+  - mongo-networkpolicy.yaml
+

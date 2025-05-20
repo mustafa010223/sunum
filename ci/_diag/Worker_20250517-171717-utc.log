@@ -1,0 +1,3124 @@
+[2025-05-17 17:17:17Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Credentials': '/home/mustafa/sunum/actions-runner/.credentials'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Runner': '/home/mustafa/sunum/actions-runner/.runner'
+[2025-05-17 17:17:17Z INFO Worker] Version: 2.324.0
+[2025-05-17 17:17:17Z INFO Worker] Commit: da3412efd49b1cf1a0fbdcbcee4e4ac4cc2177c8
+[2025-05-17 17:17:17Z INFO Worker] Culture: tr-TR
+[2025-05-17 17:17:17Z INFO Worker] UI Culture: tr-TR
+[2025-05-17 17:17:17Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-05-17 17:17:17Z INFO ProcessChannel] Receiving message of length 20092, with hash '20f9fe6440bd8ac5c5617979c85448a3562c1e0a4e773881799d4fc54b659201'
+[2025-05-17 17:17:17Z INFO Worker] Message received.
+[2025-05-17 17:17:17Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/ci-cd.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 13,
+        "col": 15,
+        "lit": "Kodları klonla"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "07829ed0-d655-4426-9b80-e64961f00ea6",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 16,
+        "col": 15,
+        "lit": "Docker image oluştur (frontend)"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 18,
+              "col": 14,
+              "lit": "docker build -t frontend:latest ./frontend"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 17,
+              "col": 28,
+              "lit": "sunum"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "65f400f4-d69c-4467-9cce-1236b563c6a7",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 20,
+        "col": 15,
+        "lit": "Docker image oluştur (backend)"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 22,
+              "col": 14,
+              "lit": "docker build -t backend:latest ./backend"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 21,
+              "col": 28,
+              "lit": "sunum"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "bbdbd59a-f0d1-471c-8918-4be1b64c5699",
+      "name": "__run_2"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 24,
+        "col": 15,
+        "lit": "Backend deployment uygula"
+      },
+      "contextName": "__run_3",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 26,
+              "col": 14,
+              "lit": "kubectl apply -f kubernetes/base/backend/deployment.yaml"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 25,
+              "col": 28,
+              "lit": "sunum"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "3b1bb2ce-2fac-4a8b-b84a-c1ab8cac8e85",
+      "name": "__run_3"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 28,
+        "col": 15,
+        "lit": "Frontend deployment uygula"
+      },
+      "contextName": "__run_4",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 30,
+              "col": 14,
+              "lit": "kubectl apply -f kubernetes/base/frontend/deployment.yaml"
+            }
+          },
+          {
+            "key": "workingDirectory",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 29,
+              "col": 28,
+              "lit": "sunum"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "cdcb1db6-762c-4dc7-bfcb-8d00e2fa2aac",
+      "name": "__run_4"
+    }
+  ],
+  "variables": {
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "RunService.FixEmbeddedIssues": {
+      "value": "true"
+    },
+    "actions_add_check_run_id_to_job_context": {
+      "value": "false"
+    },
+    "actions_skip_retry_complete_job_upon_known_errors": {
+      "value": "true"
+    },
+    "actions_uses_cache_service_v2": {
+      "value": "true"
+    },
+    "github_token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.from_run_service": {
+      "value": "true"
+    },
+    "system.github.job": {
+      "value": "deploy"
+    },
+    "system.github.launch_endpoint": {
+      "value": "https://launch.actions.githubusercontent.com"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "true"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.orchestrationId": {
+      "value": "a25139d6-a6e9-4ab8-bc53-544d0fca0f3d.deploy.__default"
+    },
+    "system.phaseDisplayName": {
+      "value": "deploy"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    }
+  },
+  "messageType": "RunnerJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "actions",
+    "version": 0,
+    "planId": "a25139d6-a6e9-4ab8-bc53-544d0fca0f3d",
+    "planGroup": null,
+    "artifactUri": null,
+    "artifactLocation": null,
+    "definition": null,
+    "owner": null
+  },
+  "timeline": {
+    "id": "a25139d6-a6e9-4ab8-bc53-544d0fca0f3d",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "213b41bf-f9ff-542a-9029-ea3c1db187fc",
+  "jobDisplayName": "deploy",
+  "jobName": "__default",
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "",
+          "ServerName": "",
+          "CacheServerUrl": "https://acghubeus1.actions.githubusercontent.com/JK1Cmkfjdtm9ZJ6DkDPfmS9M8Qp05CdC3VD7bEQ6SRCcBm5Ptx/",
+          "FeedStreamUrl": "wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "PipelinesServiceUrl": "https://pipelinesghubeus6.actions.githubusercontent.com/JK1Cmkfjdtm9ZJ6DkDPfmS9M8Qp05CdC3VD7bEQ6SRCcBm5Ptx/",
+          "GenerateIdTokenUrl": ""
+        },
+        "name": "SystemVssConnection",
+        "url": "https://run-actions-2-azure-eastus.actions.githubusercontent.com/45/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": "***"
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/dev"
+        },
+        {
+          "k": "sha",
+          "v": "a8330c2dea1ba69bf4ffd1309528610276520901"
+        },
+        {
+          "k": "repository",
+          "v": "mustafa010223/sunum"
+        },
+        {
+          "k": "repository_owner",
+          "v": "mustafa010223"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "170242141"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/mustafa010223/sunum.git"
+        },
+        {
+          "k": "run_id",
+          "v": "15087353294"
+        },
+        {
+          "k": "run_number",
+          "v": "2"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "3"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "actor_id",
+          "v": "170242141"
+        },
+        {
+          "k": "actor",
+          "v": "mustafa010223"
+        },
+        {
+          "k": "workflow",
+          "v": "CI/CD Pipeline"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "dev"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "a8330c2dea1ba69bf4ffd1309528610276520901"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "837b3844a76145b0a2d590168b2fbfe6628ff768"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "mustafaasalik@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "mustafa010223"
+                              },
+                              {
+                                "k": "username",
+                                "v": "mustafa010223"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "mustafaasalik@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "mustafa010223"
+                              },
+                              {
+                                "k": "username",
+                                "v": "mustafa010223"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "a8330c2dea1ba69bf4ffd1309528610276520901"
+                        },
+                        {
+                          "k": "message",
+                          "v": "fix: working-directory eklendi, CI/CD uyumlu hale getirildi"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2025-05-17T19:12:08+02:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "9c49c9cf52b196637b008bc4f0e1ed4db81adf4e"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/mustafa010223/sunum/commit/a8330c2dea1ba69bf4ffd1309528610276520901"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/mustafa010223/sunum/compare/837b3844a761...a8330c2dea1b"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "mustafaasalik@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "mustafa010223"
+                          },
+                          {
+                            "k": "username",
+                            "v": "mustafa010223"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "mustafaasalik@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "mustafa010223"
+                          },
+                          {
+                            "k": "username",
+                            "v": "mustafa010223"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "a8330c2dea1ba69bf4ffd1309528610276520901"
+                    },
+                    {
+                      "k": "message",
+                      "v": "fix: working-directory eklendi, CI/CD uyumlu hale getirildi"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2025-05-17T19:12:08+02:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "9c49c9cf52b196637b008bc4f0e1ed4db81adf4e"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/mustafa010223/sunum/commit/a8330c2dea1ba69bf4ffd1309528610276520901"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "mustafaasalik@gmail.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "mustafa010223"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/dev"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/mustafa010223/sunum.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1747484638.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "mustafa010223/sunum"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/mustafa010223/sunum.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/mustafa010223/sunum"
+                    },
+                    {
+                      "k": "id",
+                      "v": 985274321.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "sunum"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOOroX0Q"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/170242141?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "mustafaasalik@gmail.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/mustafa010223/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/mustafa010223/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/mustafa010223/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/mustafa010223/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/mustafa010223"
+                          },
+                          {
+                            "k": "id",
+                            "v": 170242141.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "mustafa010223"
+                          },
+                          {
+                            "k": "name",
+                            "v": "mustafa010223"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "U_kgDOCiWwXQ"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/mustafa010223/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/mustafa010223/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/mustafa010223/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/mustafa010223/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/mustafa010223/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/mustafa010223"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1747501931.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:mustafa010223/sunum.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/mustafa010223/sunum"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2025-05-17T12:24:01Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/mustafa010223/sunum"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/170242141?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/mustafa010223/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/mustafa010223/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/mustafa010223/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/mustafa010223/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/mustafa010223"
+                    },
+                    {
+                      "k": "id",
+                      "v": 170242141.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "mustafa010223"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOCiWwXQ"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/mustafa010223/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/mustafa010223/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/mustafa010223/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/mustafa010223/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/mustafa010223/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/mustafa010223"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "workflow_ref",
+          "v": "mustafa010223/sunum/.github/workflows/ci-cd.yml@refs/heads/dev"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "a8330c2dea1ba69bf4ffd1309528610276520901"
+        },
+        {
+          "k": "repository_id",
+          "v": "985274321"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "mustafa010223"
+        }
+      ]
+    },
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "needs": {
+      "t": 2
+    },
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    }
+  },
+  "billingOwnerId": "U_kgDOCiWwXQ"
+}
+[2025-05-17 17:17:17Z INFO JobRunner] Job ID 213b41bf-f9ff-542a-9029-ea3c1db187fc
+[2025-05-17 17:17:17Z INFO ConfigurationStore] currentAssemblyLocation: /home/mustafa/sunum/actions-runner/bin/Runner.Worker.dll
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] binPath: /home/mustafa/sunum/actions-runner/bin
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] RootFolder: /home/mustafa/sunum/actions-runner
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Runner': '/home/mustafa/sunum/actions-runner/.runner'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] ConfigFilePath: /home/mustafa/sunum/actions-runner/.runner
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'MigratedRunner': '/home/mustafa/sunum/actions-runner/.runner_migrated'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] MigratedConfigFilePath: /home/mustafa/sunum/actions-runner/.runner_migrated
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Credentials': '/home/mustafa/sunum/actions-runner/.credentials'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] CredFilePath: /home/mustafa/sunum/actions-runner/.credentials
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/mustafa/sunum/actions-runner/.credentials_migrated'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] MigratedCredFilePath: /home/mustafa/sunum/actions-runner/.credentials_migrated
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Service': '/home/mustafa/sunum/actions-runner/.service'
+[2025-05-17 17:17:17Z INFO ConfigurationStore] ServiceConfigFilePath: /home/mustafa/sunum/actions-runner/.service
+[2025-05-17 17:17:17Z INFO ConfigurationStore] Read setting file: 286 chars
+[2025-05-17 17:17:17Z INFO JobRunner] Initializing launch client
+[2025-05-17 17:17:17Z INFO JobServerQueue] Initializing results client
+[2025-05-17 17:17:17Z INFO ResultServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2025-05-17 17:17:17Z INFO ResultServer] Attempting to start websocket client with delay 00:00:00.
+[2025-05-17 17:17:17Z INFO JobServerQueue] Start process web console line queue.
+[2025-05-17 17:17:17Z INFO JobServerQueue] Start process file upload queue.
+[2025-05-17 17:17:17Z INFO JobServerQueue] Start results file upload queue.
+[2025-05-17 17:17:17Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-05-17 17:17:17Z INFO JobServerQueue] Start process timeline update queue.
+[2025-05-17 17:17:17Z INFO ExecutionContext] Initializing Job context
+[2025-05-17 17:17:17Z INFO ExecutionContext] Initialize GitHub context
+[2025-05-17 17:17:17Z INFO ExecutionContext] Initialize Env context
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:17Z INFO JobRunner] Starting the job execution context.
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO JobRunner] Validating directory permissions for: '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Tools': '/home/mustafa/sunum/actions-runner/_work/_tool'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:17Z INFO JobRunner] Getting job extension.
+[2025-05-17 17:17:17Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'Credentials': '/home/mustafa/sunum/actions-runner/.credentials'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known config file 'SetupInfo': '/home/mustafa/sunum/actions-runner/.setup_info'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/mustafa/sunum/actions-runner/_work/_PipelineMapping/mustafa010223/sunum/PipelineFolder.json
+[2025-05-17 17:17:17Z INFO PipelineDirectoryManager] Updating job run properties.
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO JobExtension] Downloading actions
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:17Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:17Z INFO Worker] Listening for cancel message from the channel.
+[2025-05-17 17:17:17Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-05-17 17:17:18Z INFO ResultServer] Successfully started websocket client.
+[2025-05-17 17:17:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ca834c87-f44a-4ab2-b76e-3b5e29b80536', success rate: 1/1.
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:18Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:18Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/f43a0e5ff2bd294095638e18286ca9a3d1956744' into /home/mustafa/sunum/actions-runner/_work/_actions/_temp_4cbf1223-fcd4-4f24-b56b-1537084147e0/34eb0253-9a5c-43e6-8150-14f05eebc4be.tar.gz.
+[2025-05-17 17:17:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ca834c87-f44a-4ab2-b76e-3b5e29b80536', success rate: 1/1.
+[2025-05-17 17:17:18Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2025-05-17 17:17:18Z INFO ActionManager] Request URL: https://api.github.com/repos/actions/checkout/tarball/f43a0e5ff2bd294095638e18286ca9a3d1956744 X-GitHub-Request-Id: 0481:3B467D:16CFFF:228349:6828C49E Http Status: OK
+[2025-05-17 17:17:18Z INFO ActionManager] Which2: 'tar'
+[2025-05-17 17:17:18Z INFO ActionManager] Location: '/usr/bin/tar'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/mustafa/sunum/actions-runner/_work/_actions/_temp_4cbf1223-fcd4-4f24-b56b-1537084147e0/34eb0253-9a5c-43e6-8150-14f05eebc4be.tar.gz"'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/_work/_actions/_temp_4cbf1223-fcd4-4f24-b56b-1537084147e0/_staging'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 126548.
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] Process started with process id 126548, waiting for process exit.
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:18Z INFO ProcessInvokerWrapper] Finished process 126548 with exit code 0, and elapsed time 00:00:00.0250378.
+[2025-05-17 17:17:19Z INFO ActionManager] Finished getting action repository.
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-05-17 17:17:19Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManager] Load action that reference repository from '/home/mustafa/sunum/actions-runner/_work/_actions/actions/checkout/v3'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-05-17 17:17:19Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-05-17 17:17:19Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-05-17 17:17:19Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-05-17 17:17:19Z INFO JobExtension] Adding .
+[2025-05-17 17:17:19Z INFO JobExtension] Adding .
+[2025-05-17 17:17:19Z INFO JobExtension] Adding .
+[2025-05-17 17:17:19Z INFO JobExtension] Adding .
+[2025-05-17 17:17:19Z INFO JobExtension] Adding .
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO JobExtension] Total accessible running process: 324.
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO JobExtension] Start checking service connectivity in background.
+[2025-05-17 17:17:19Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "ca834c87-f44a-4ab2-b76e-3b5e29b80536",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2025-05-17T17:17:17.6883617Z",
+  "finishTime": "2025-05-17T17:17:19.1716517Z"
+}.
+[2025-05-17 17:17:19Z INFO JobRunner] Total job steps: 5.
+[2025-05-17 17:17:19Z INFO JobRunner] Run all job steps.
+[2025-05-17 17:17:19Z INFO StepsRunner] Processing step: DisplayName='Kodları klonla'
+[2025-05-17 17:17:19Z INFO StepsRunner] Evaluating: success()
+[2025-05-17 17:17:19Z INFO StepsRunner] Result: true
+[2025-05-17 17:17:19Z INFO StepsRunner] Starting the step.
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManager] Load action that reference repository from '/home/mustafa/sunum/actions-runner/_work/_actions/actions/checkout/v3'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-05-17 17:17:19Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-05-17 17:17:19Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-05-17 17:17:19Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-05-17 17:17:19Z INFO ExecutionContext] Reserve record order 7 to 12 for post job actions.
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:19Z INFO ExecutionContext] Write event payload to /home/mustafa/sunum/actions-runner/_work/_temp/_github_workflow/event.json
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:19Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "mustafa010223/sunum"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2025-05-17 17:17:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ca834c87-f44a-4ab2-b76e-3b5e29b80536', success rate: 1/1.
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:19Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-05-17 17:17:19Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command error
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command group
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-05-17 17:17:19Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:19Z INFO HostContext] Well known directory 'Externals': '/home/mustafa/sunum/actions-runner/externals'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/externals/node20/bin/node'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Arguments: '"/home/mustafa/sunum/actions-runner/_work/_actions/actions/checkout/v3/dist/index.js"'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/_work/sunum/sunum'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 126551.
+[2025-05-17 17:17:19Z INFO ProcessInvokerWrapper] Process started with process id 126551, waiting for process exit.
+[2025-05-17 17:17:19Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2025-05-17 17:17:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record '07829ed0-d655-4426-9b80-e64961f00ea6', success rate: 1/1.
+[2025-05-17 17:17:19Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-17 17:17:19Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-05-17 17:17:19Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_ca834c87-f44a-4ab2-b76e-3b5e29b80536.1
+[2025-05-17 17:17:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record '07829ed0-d655-4426-9b80-e64961f00ea6', success rate: 1/1.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Finished process 126551 with exit code 0, and elapsed time 00:00:00.7994239.
+[2025-05-17 17:17:20Z INFO CreateStepSummaryCommand] Step Summary file (/home/mustafa/sunum/actions-runner/_work/_temp/_runner_file_commands/step_summary_c05050a6-ead7-417c-896a-1e0416593eaf) is empty; skipping attachment upload
+[2025-05-17 17:17:20Z INFO StepsRunner] Step result: 
+[2025-05-17 17:17:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "07829ed0-d655-4426-9b80-e64961f00ea6",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-05-17T17:17:19.1917916Z",
+  "finishTime": "2025-05-17T17:17:20.0639633Z"
+}.
+[2025-05-17 17:17:20Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = ''
+[2025-05-17 17:17:20Z INFO StepsRunner] Processing step: DisplayName='Docker image oluştur (frontend)'
+[2025-05-17 17:17:20Z INFO StepsRunner] Evaluating: success()
+[2025-05-17 17:17:20Z INFO StepsRunner] Result: true
+[2025-05-17 17:17:20Z INFO StepsRunner] Starting the step.
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:20Z INFO ExecutionContext] Write event payload to /home/mustafa/sunum/actions-runner/_work/_temp/_github_workflow/event.json
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-05-17 17:17:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command error
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command group
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-05-17 17:17:20Z INFO ScriptHandler] Which2: 'bash'
+[2025-05-17 17:17:20Z INFO ScriptHandler] Location: '/usr/bin/bash'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:20Z INFO ScriptHandler] Which2: 'bash'
+[2025-05-17 17:17:20Z INFO ScriptHandler] Location: '/usr/bin/bash'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/bash'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Arguments: '-e /home/mustafa/sunum/actions-runner/_work/_temp/9727448c-b1ab-4083-848f-6e33a438c405.sh'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/_work/sunum/sunum/sunum'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-17 17:17:20Z INFO CreateStepSummaryCommand] Step Summary file (/home/mustafa/sunum/actions-runner/_work/_temp/_runner_file_commands/step_summary_a4df3991-7004-4692-a4fe-d915fb963efd) is empty; skipping attachment upload
+[2025-05-17 17:17:20Z ERR  StepsRunner] Caught exception from step: System.ComponentModel.Win32Exception (2): An error occurred trying to start process '/usr/bin/bash' with working directory '/home/mustafa/sunum/actions-runner/_work/sunum/sunum/sunum'. No such file or directory
+   at System.Diagnostics.Process.ForkAndExecProcess(ProcessStartInfo startInfo, String resolvedFilename, String[] argv, String[] envp, String cwd, Boolean setCredentials, UInt32 userId, UInt32 groupId, UInt32[] groups, Int32& stdinFd, Int32& stdoutFd, Int32& stderrFd, Boolean usesTerminal, Boolean throwOnNoExec)
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo startInfo)
+   at GitHub.Runner.Sdk.ProcessInvoker.ExecuteAsync(String workingDirectory, String fileName, String arguments, IDictionary`2 environment, Boolean requireExitCodeZero, Encoding outputEncoding, Boolean killProcessOnCancel, Channel`1 redirectStandardIn, Boolean inheritConsoleHandler, Boolean keepStandardInOpen, Boolean highPriorityProcess, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.ProcessInvokerWrapper.ExecuteAsync(String workingDirectory, String fileName, String arguments, IDictionary`2 environment, Boolean requireExitCodeZero, Encoding outputEncoding, Boolean killProcessOnCancel, Channel`1 redirectStandardIn, Boolean inheritConsoleHandler, Boolean keepStandardInOpen, Boolean highPriorityProcess, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.Handlers.DefaultStepHost.ExecuteAsync(IExecutionContext context, String workingDirectory, String fileName, String arguments, IDictionary`2 environment, Boolean requireExitCodeZero, Encoding outputEncoding, Boolean killProcessOnCancel, Boolean inheritConsoleHandler, String standardInInput, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.Handlers.ScriptHandler.RunAsync(ActionRunStage stage)
+   at GitHub.Runner.Worker.ActionRunner.RunAsync()
+   at GitHub.Runner.Worker.StepsRunner.RunStepAsync(IStep step, CancellationToken jobCancellationToken)
+[2025-05-17 17:17:20Z INFO StepsRunner] Step result: Failed
+[2025-05-17 17:17:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "sh",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "65f400f4-d69c-4467-9cce-1236b563c6a7",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "An error occurred trying to start process '/usr/bin/bash' with working directory '/home/mustafa/sunum/actions-runner/_work/sunum/sunum/sunum'. No such file or directory"
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-05-17T17:17:20.0662035Z",
+  "finishTime": "2025-05-17T17:17:20.1097704Z"
+}.
+[2025-05-17 17:17:20Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-17 17:17:20Z INFO StepsRunner] Processing step: DisplayName='Docker image oluştur (backend)'
+[2025-05-17 17:17:20Z INFO StepsRunner] Evaluating: success()
+[2025-05-17 17:17:20Z INFO StepsRunner] Result: false
+[2025-05-17 17:17:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-05-17 17:17:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-17 17:17:20Z INFO StepsRunner] Processing step: DisplayName='Backend deployment uygula'
+[2025-05-17 17:17:20Z INFO StepsRunner] Evaluating: success()
+[2025-05-17 17:17:20Z INFO StepsRunner] Result: false
+[2025-05-17 17:17:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-05-17 17:17:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-17 17:17:20Z INFO StepsRunner] Processing step: DisplayName='Frontend deployment uygula'
+[2025-05-17 17:17:20Z INFO StepsRunner] Evaluating: success()
+[2025-05-17 17:17:20Z INFO StepsRunner] Result: false
+[2025-05-17 17:17:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2025-05-17 17:17:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-17 17:17:20Z INFO StepsRunner] Processing step: DisplayName='Post Kodları klonla'
+[2025-05-17 17:17:20Z INFO StepsRunner] Evaluating: always()
+[2025-05-17 17:17:20Z INFO StepsRunner] Result: true
+[2025-05-17 17:17:20Z INFO StepsRunner] Starting the step.
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:20Z INFO ActionManager] Load action that reference repository from '/home/mustafa/sunum/actions-runner/_work/_actions/actions/checkout/v3'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Actions': '/home/mustafa/sunum/actions-runner/_work/_actions'
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2025-05-17 17:17:20Z INFO ActionManager] Action pre node.js file: N/A.
+[2025-05-17 17:17:20Z INFO ActionManager] Action node.js file: dist/index.js.
+[2025-05-17 17:17:20Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:20Z INFO ExecutionContext] Write event payload to /home/mustafa/sunum/actions-runner/_work/_temp/_github_workflow/event.json
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Work': '/home/mustafa/sunum/actions-runner/_work'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Temp': '/home/mustafa/sunum/actions-runner/_work/_temp'
+[2025-05-17 17:17:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "mustafa010223/sunum"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2025-05-17 17:17:20Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2025-05-17 17:17:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command set-env
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command set-output
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command save-state
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-path
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command warning
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command error
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command notice
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command debug
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command group
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2025-05-17 17:17:20Z INFO ActionCommandManager] Register action command extension for command echo
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Externals': '/home/mustafa/sunum/actions-runner/externals'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   File name: '/home/mustafa/sunum/actions-runner/externals/node20/bin/node'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Arguments: '"/home/mustafa/sunum/actions-runner/_work/_actions/actions/checkout/v3/dist/index.js"'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Working directory: '/home/mustafa/sunum/actions-runner/_work/sunum/sunum'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 126668.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Process started with process id 126668, waiting for process exit.
+[2025-05-17 17:17:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '07829ed0-d655-4426-9b80-e64961f00ea6', success rate: 1/1.
+[2025-05-17 17:17:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '65f400f4-d69c-4467-9cce-1236b563c6a7', success rate: 1/1.
+[2025-05-17 17:17:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record '773a6279-6756-4c56-b8b6-ed86e53611d5', success rate: 1/1.
+[2025-05-17 17:17:20Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-17 17:17:20Z INFO ProcessInvokerWrapper] Finished process 126668 with exit code 0, and elapsed time 00:00:00.2190136.
+[2025-05-17 17:17:20Z INFO CreateStepSummaryCommand] Step Summary file (/home/mustafa/sunum/actions-runner/_work/_temp/_runner_file_commands/step_summary_f2507298-a3d6-4a27-bc58-1ca8c7513195) is empty; skipping attachment upload
+[2025-05-17 17:17:20Z INFO StepsRunner] Step result: 
+[2025-05-17 17:17:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "773a6279-6756-4c56-b8b6-ed86e53611d5",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-05-17T17:17:20.117041Z",
+  "finishTime": "2025-05-17T17:17:20.3589361Z"
+}.
+[2025-05-17 17:17:20Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-17 17:17:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-17 17:17:20Z INFO JobRunner] Finalize job.
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:20Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:20Z INFO JobExtension] Initialize Env context
+[2025-05-17 17:17:20Z INFO JobExtension] Initialize steps context
+[2025-05-17 17:17:20Z INFO JobExtension] Total accessible running process: 324.
+[2025-05-17 17:17:20Z INFO JobExtension] Inspecting process environment variables. PID: 98293 (kworker/2:1-events)
+[2025-05-17 17:17:20Z INFO LinuxProcessExtensions] Read env from /proc/98293/environ
+[2025-05-17 17:17:20Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/98293/environ' is denied.
+[2025-05-17 17:17:20Z INFO JobExtension] Inspecting process environment variables. PID: 107940 (kworker/1:2-rcu_gp)
+[2025-05-17 17:17:20Z INFO LinuxProcessExtensions] Read env from /proc/107940/environ
+[2025-05-17 17:17:20Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/107940/environ' is denied.
+[2025-05-17 17:17:20Z INFO JobExtension] Inspecting process environment variables. PID: 111929 (kworker/u16:0-iwlwifi)
+[2025-05-17 17:17:20Z INFO LinuxProcessExtensions] Read env from /proc/111929/environ
+[2025-05-17 17:17:20Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/111929/environ' is denied.
+[2025-05-17 17:17:20Z INFO JobExtension] Inspecting process environment variables. PID: 123654 (kworker/3:0-events)
+[2025-05-17 17:17:20Z INFO LinuxProcessExtensions] Read env from /proc/123654/environ
+[2025-05-17 17:17:20Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/123654/environ' is denied.
+[2025-05-17 17:17:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "f4acba20-9a23-466c-a117-573556cc3788",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2025-05-17T17:17:20.3673136Z",
+  "finishTime": "2025-05-17T17:17:20.4597576Z"
+}.
+[2025-05-17 17:17:20Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-05-17 17:17:20Z INFO JobRunner] Completing the job execution context.
+[2025-05-17 17:17:20Z INFO JobRunner] Shutting down the job server queue.
+[2025-05-17 17:17:20Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-05-17 17:17:20Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2025-05-17 17:17:21Z INFO JobServerQueue] All queue process task stopped.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '773a6279-6756-4c56-b8b6-ed86e53611d5', success rate: 1/1.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f4acba20-9a23-466c-a117-573556cc3788', success rate: 1/1.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Web console line queue drained.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Uploading 5 files in one shot.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Try to upload 5 log files or attachments, success rate: 5/5.
+[2025-05-17 17:17:21Z INFO JobServerQueue] File upload queue drained.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Starting results-based upload queue...
+[2025-05-17 17:17:21Z INFO JobServerQueue] Uploading 5 file(s) in one shot through results service.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-05-17 17:17:21Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_07829ed0-d655-4426-9b80-e64961f00ea6.1
+[2025-05-17 17:17:22Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-05-17 17:17:22Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_65f400f4-d69c-4467-9cce-1236b563c6a7.1
+[2025-05-17 17:17:22Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-05-17 17:17:22Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_773a6279-6756-4c56-b8b6-ed86e53611d5.1
+[2025-05-17 17:17:23Z INFO JobServerQueue] Got a step log file to send to results service.
+[2025-05-17 17:17:23Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_f4acba20-9a23-466c-a117-573556cc3788.1
+[2025-05-17 17:17:23Z INFO JobServerQueue] Got a job log file to send to results service.
+[2025-05-17 17:17:23Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, /home/mustafa/sunum/actions-runner/_diag/blocks/a25139d6-a6e9-4ab8-bc53-544d0fca0f3d_213b41bf-f9ff-542a-9029-ea3c1db187fc.1
+[2025-05-17 17:17:23Z INFO JobServerQueue] Tried to upload 5 file(s) to results, success rate: 5/5.
+[2025-05-17 17:17:23Z INFO JobServerQueue] Results upload queue drained.
+[2025-05-17 17:17:24Z INFO JobServerQueue] Timeline update queue drained.
+[2025-05-17 17:17:24Z INFO JobServerQueue] Disposing job server ...
+[2025-05-17 17:17:24Z INFO JobServerQueue] Disposing results server ...
+[2025-05-17 17:17:24Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-05-17 17:17:24Z INFO TempDirectoryManager] Cleaning runner temp folder: /home/mustafa/sunum/actions-runner/_work/_temp
+[2025-05-17 17:17:24Z INFO HostContext] Well known directory 'Bin': '/home/mustafa/sunum/actions-runner/bin'
+[2025-05-17 17:17:24Z INFO HostContext] Well known directory 'Root': '/home/mustafa/sunum/actions-runner'
+[2025-05-17 17:17:24Z INFO HostContext] Well known directory 'Diag': '/home/mustafa/sunum/actions-runner/_diag'
+[2025-05-17 17:17:24Z INFO HostContext] Well known config file 'Telemetry': '/home/mustafa/sunum/actions-runner/_diag/.telemetry'
+[2025-05-17 17:17:24Z INFO JobRunner] Raising job completed against run service
+[2025-05-17 17:17:24Z INFO Worker] Job completed.

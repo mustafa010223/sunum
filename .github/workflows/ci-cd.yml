@@ -13,6 +13,11 @@ jobs:
       - name: Kodları klonla
         uses: actions/checkout@v3
 
+      - name: Eski deployment'ları kaldır (isteğe bağlı)
+        run: |
+          kubectl delete deployment backend --ignore-not-found
+          kubectl delete deployment frontend --ignore-not-found
+
       - name: Docker image oluştur (frontend)
         run: |
           docker build -t frontend:latest ./frontend
@@ -21,6 +26,10 @@ jobs:
         run: |
           docker build -t backend:latest ./backend
 
+      - name: Kubernetes context ayarla (opsiyonel)
+        run: |
+          kubectl config use-context default
+
       - name: Backend deployment uygula
         run: |
           kubectl apply -f kubernetes/base/backend/deployment.yaml
@@ -28,4 +37,3 @@ jobs:
       - name: Frontend deployment uygula
         run: |
           kubectl apply -f kubernetes/base/frontend/deployment.yaml
-

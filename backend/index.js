@@ -15,6 +15,11 @@ mongoose.connect(process.env.MONGO_URL || 'mongodb://mongodb:27017/testdb', {
 const NoteSchema = new mongoose.Schema({ text: String });
 const Note = mongoose.model('Note', NoteSchema);
 
+// ✅ Sağlık kontrolü için ekledik
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ status: 'ok', message: 'Backend sağlıklı ✅' });
+});
+
 app.get('/api', (req, res) => res.send('API aktif! 🟢'));
 
 app.post('/add', async (req, res) => {

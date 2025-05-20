@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: dev
+  labels:
+    app: backend
+spec:
+  selector:
+    app: backend
+  ports:
+    - port: 80       # servis içi erişim portu (Ingress buraya gelir)
+      targetPort: 3000  # containerPort (backend app içinde çalışan port)
+      protocol: TCP
+  type: ClusterIP  # varsayılan, Ingress için yeterli
+

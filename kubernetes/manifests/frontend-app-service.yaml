@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: dev
+  labels:
+    app: frontend
+spec:
+  selector:
+    app: frontend
+  ports:
+    - port: 80          # Servisin dinlediği port
+      targetPort: 3000  # Pod içindeki containerPort
+  type: ClusterIP       # Ingress için uygundur
+

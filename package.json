@@ -1,0 +1,24 @@
+{
+  "name": "sunum",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mustafa010223: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@github.com/mustafa010223/sunum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mustafa010223/sunum/issues"
+  },
+  "homepage": "https://github.com/mustafa010223/sunum#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

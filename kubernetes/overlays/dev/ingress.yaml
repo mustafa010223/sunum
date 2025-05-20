@@ -2,19 +2,17 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: frontend-ingress
-  namespace: dev
   annotations:
     traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
   rules:
-  - host: eca6-2a02-8109-842a-f700-e271-2c1d-f152-a243.ngrok-free.app
+  - host: ae6d-2a02-8109-842a-f700-d786-cb0f-782e-2bbe.ngrok-free.app
     http:
       paths:
-      - path: /
-        pathType: Prefix
-        backend:
-          service:
-            name: frontend-service
-            port:
-              number: 80
-
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: frontend-service
+              port:
+                number: 80

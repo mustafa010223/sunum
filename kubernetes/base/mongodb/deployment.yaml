@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: mongodb
   namespace: dev
+  labels:
+    app: mongodb
 spec:
   replicas: 1
   selector:
@@ -12,15 +14,19 @@ spec:
     metadata:
       labels:
         app: mongodb
-    spec:
+    spec:docker run
+      nodeSelector:
+        role-mongodb: "true"  # Etiket eşleşmesi doğru olmalı
       containers:
-      - name: mongodb
-        image: mongo:5
-        ports:
-        - containerPort: 27017
-        volumeMounts:
-        - name: mongo-data
-          mountPath: /data/db
+        - name: mongodb
+          image: mongo:latest
+          ports:
+            - containerPort: 27017
+          volumeMounts:
+            - name: mongo-storage
+              mountPath: /data/db
       volumes:
-      - name: mongo-data
-        emptyDir: {}
+        - name: mongo-storage
+          persistentVolumeClaim:
+            claimName: mongo-pvc
+

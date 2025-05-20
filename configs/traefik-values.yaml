@@ -1,0 +1,39 @@
+image:
+  name: traefik
+  tag: 1.7.26
+  pullPolicy: IfNotPresent
+
+service:
+  enabled: true
+  type: LoadBalancer
+  annotations: {}
+  port: 80
+  nodePorts:
+    http: ""
+    https: ""
+
+replicas: 1
+
+resources: {}
+
+debug:
+  enabled: false
+
+ssl:
+  enabled: false
+  enforced: false
+
+acme:
+  enabled: false
+  email: admin@example.com
+
+dashboard:
+  enabled: true
+  domain: traefik.example.com
+
+metrics:
+  prometheus:
+    enabled: false
+
+accessLogs:
+  enabled: false
