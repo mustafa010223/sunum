@@ -35,3 +35,10 @@ ci/_work/
 frontend/frontend.tar
 archives/backend.tar
 archives/
+# Büyük dosyalar
+*.tar.gz
+*.tar
+archives/
+ci/externals/
+ci/_work/
+node_modules/
