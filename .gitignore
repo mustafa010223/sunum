@@ -28,3 +28,9 @@ yarn-error.log*
 actions-runner/
 *.tar.gz
 temiz-sunum/
+*.tar
+node_modules/
+ci/externals/
+ci/_work/
+frontend/frontend.tar
+archives/backend.tar
